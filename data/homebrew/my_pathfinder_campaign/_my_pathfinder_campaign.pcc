@@ -1,0 +1,93 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+CAMPAIGN:Kingdoms of Kalamar Campaign
+GAMEMODE:Pathfinder
+RANK:9
+GENRE:Fantasy
+BOOKTYPE:Homebrew
+SETTING:My Homebrew Campaign
+TYPE:Homebrew.PathfinderHomebrew
+PUBNAMELONG:My Homebrew
+PUBNAMESHORT:Homebrew
+#PUBNAMEWEB:http://www.mpcwebsite.com
+SOURCELONG:My Pathfinder Campaign
+SOURCESHORT:MPC
+SOURCEWEB:http://www.mpcwebsite.com
+SOURCEDATE:2008-01
+ISOGL:NO
+COPYRIGHT:My Pathfinder Campaign, Copyright 2015 by PCGen Team
+
+PCC:@/pathfinder/paizo/roleplaying_game/core_rulebook/core_rulebook.pcc
+PCC:@/pathfinder\paizo\roleplaying_game/advanced_class_guide/_advanced_class_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_players_guide/advanced_players_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/advanced_race_guide/advanced_race_guide.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary/bestiary.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary_2/bestiary_2.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/bestiary_3/bestiary_3.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_combat/_ultimate_combat.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_equipment/ultimate_equipment.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_magic/_ultimate_magic.pcc
+
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_world_guide/inner_sea_world_guide.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_magic/inner_sea_magic.pcc
+PCC:@/pathfinder/paizo/player_companion/adventurers_armory/_adventurers_armory.pcc
+PCC:@/pathfinder/paizo/player_companion/champions_of_purity/_champions_of_purity.pcc
+PCC:@/pathfinder/paizo/player_companion/melee_tactics_toolbox/_melee_tactics_toolbox.pcc
+PCC:@/pathfinder/paizo/player_companion/ranged_tactics_toolbox/_ranged_tactics_toolbox.pcc
+PCC:@/pathfinder/paizo/roleplaying_game/ultimate_campaign/_ultimate_campaign.pcc
+PCC:@/pathfinder/paizo/player_companion/weapon_masters_handbook/_weapon_masters_handbook.pcc
+PCC:@/pathfinder/paizo/campaign_setting/inner_sea_gods/_inner_sea_gods.pcc
+#PCC:@/pathfinder/paizo/player_companion/sargava_the_lost_colony/sargava_the_lost_colony.pcc
+PCC:@/pathfinder/paizo/player_companion/humans_of_golarion/_humans_of_golarion.pcc
+PCC:@/pathfinder/paizo/campaign_setting/pathfinder_society_field_guide/pathfinder_society_field_guide.pcc
+PCC:@/35e/paizo/adventure_path/rise_of_the_runelords/rise_of_the_runelords_players_guide/rise_of_the_runelords_players_guide.pcc
+
+PCC:@/pathfinder/paizo/player_companion/heroes_of_the_street/_heroes_of_the_street.pcc
+
+PCC:@/pathfinder/paizo/player_companion/quests_and_campaigns/_quests_and_campaigns.pcc
+
+PCC:@/pathfinder/paizo/player_companion/monster_summoners_handbook/_monster_summoners_handbook.pcc
+
+
+
+
+#INFOTEXT:To display an Information in the Source Info section on the Source Materials tab, replace the text after 'INFOTEXT:' with your text and remove the '#'
+
+DATACONTROL:mpc__datacontrols.lst
+ALIGNMENT:mpc__align.lst
+STAT:mpc__stats.lst
+SAVE:mpc__saves.lst
+
+ABILITY:mpc_abilities.lst
+ABILITYCATEGORY:mpc_abilitycategories.lst
+BIOSET:mpc_biosettings.lst
+CLASS:mpc_classes.lst
+COMPANIONMOD:mpc_companionmods.lst
+DEITY:mpc_deities.lst
+DOMAIN:mpc_domains.lst
+EQUIPMENT:mpc_equip_arms_armor.lst
+EQUIPMENT:mpc_equip_general.lst
+EQUIPMOD:mpc_equipmods.lst
+ABILITY:mpc_feats.lst
+KIT:mpc_kits.lst
+LANGUAGE:mpc_languages.lst
+ARMORPROF:mpc_profs_armor.lst
+SHIELDPROF:mpc_profs_shield.lst
+WEAPONPROF:mpc_profs_weapon.lst
+RACE:mpc_races.lst
+SKILL:mpc_skills.lst
+SPELL:mpc_spells.lst
+TEMPLATE:mpc_templates.lst
+
+
+### You can hide TYPEs in the GUI - TYPEs are handy for organization, but some are only used for internal functions.
+#HIDETYPE:EQUIP|SpecialSuppressor
+#HIDETYPE:SKILL|Science
+#HIDETYPE:FEAT|Leadership
+
+#Remove the '#' in front of those lines referring to files that you actually want to load
+#Remember to set the GAMEMODE to the one you really want.
+#Options in the Open Source data are 35e, Modern, Pathfinder, Darwins_World_2.
+
+#If you use this framework to set up a dataset of your own, then you may want to rename the folder and files to something
+#different. Otherwise if you ever should install a newer version of PCGen into your existing directory or needed to re-install
+#your existing installation of PCGen, your changes would get overwritten and thus be lost.

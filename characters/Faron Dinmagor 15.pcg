@@ -1,0 +1,401 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Kingdoms of Kalamar Campaign
+VERSION:6.07.07
+ROLLMETHOD:2|EXPRESSION:High Fantasy
+PURCHASEPOINTS:Y|TYPE:High Fantasy
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:N
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:N
+
+# Character Bio
+CHARACTERNAME:Faron Dinmagor
+TABNAME:
+PLAYERNAME:yenerm
+HEIGHT:74
+WEIGHT:129
+AGE:131
+GENDER:Male
+HANDED:Right
+SKINCOLOR:brown-green
+EYECOLOR:green
+HAIRCOLOR:dark brown
+HAIRSTYLE:long, straight
+LOCATION:Cliorea Forest
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:14
+STAT:INT|SCORE:12
+STAT:WIS|SCORE:14
+STAT:CHA|SCORE:10
+ALIGN:CN
+RACE:Elf
+
+# Character Class(es)
+CLASS:Slayer|LEVEL:10|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASS:Magus|LEVEL:6|SKILLPOOL:0
+CLASSABILITIESLEVEL:Slayer=1|HITPOINTS:10|PRESTAT:DEX=7|PRESTAT:CON=3|PRESTAT:STR=4|PRESTAT:WIS=4|PRESTAT:INT=2|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=2|HITPOINTS:7|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=3|HITPOINTS:7|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=4|HITPOINTS:9|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=5|HITPOINTS:6|PRESTAT:CON=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=6|HITPOINTS:7|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=7|HITPOINTS:6|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=8|HITPOINTS:9|PRESTAT:DEX=1|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=9|HITPOINTS:10|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Slayer=10|HITPOINTS:5|SKILLSGAINED:8|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=1|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=2|HITPOINTS:5|PRESTAT:DEX=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=3|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=4|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=5|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Magus=6|HITPOINTS:4|SKILLSGAINED:4|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:600000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Slayer|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Bluff|OUTPUTORDER:4|CLASSBOUGHT:[CLASS:Slayer|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|CLASSBOUGHT:[CLASS:Slayer|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disable Device|OUTPUTORDER:16|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise|OUTPUTORDER:18|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:19|
+SKILL:Escape Artist|OUTPUTORDER:20|CLASSBOUGHT:[CLASS:Slayer|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Fly|OUTPUTORDER:21|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:22|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:25|
+SKILL:Heal|OUTPUTORDER:26|CLASSBOUGHT:[CLASS:Slayer|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:29|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:30|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Magus|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Dungeoneering)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Engineering)|OUTPUTORDER:33|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Geography)|OUTPUTORDER:34|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (History)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Local)|OUTPUTORDER:36|
+SKILL:Knowledge (Nature)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Slayer|RANKS:3.0|COST:1|CLASSSKILL:N]
+SKILL:Knowledge (Planes)|OUTPUTORDER:38|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:39|
+SKILL:Perception|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Magus|RANKS:5.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Perform (Untrained)|OUTPUTORDER:42|
+SKILL:Profession (Untrained)|OUTPUTORDER:43|
+SKILL:Ride|OUTPUTORDER:44|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:45|
+SKILL:Sense Motive|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Magus|RANKS:3.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:47|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:48|
+SKILL:Spellcraft|OUTPUTORDER:51|CLASSBOUGHT:[CLASS:Magus|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:52|CLASSBOUGHT:[CLASS:Magus|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Survival|OUTPUTORDER:53|CLASSBOUGHT:[CLASS:Magus|RANKS:4.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Slayer|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Swim|OUTPUTORDER:54|CLASSBOUGHT:[CLASS:Slayer|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Untrained Charisma|OUTPUTORDER:55|
+SKILL:Untrained Dexterity|OUTPUTORDER:56|
+SKILL:Untrained Intelligence|OUTPUTORDER:57|
+SKILL:Untrained Strength|OUTPUTORDER:58|
+SKILL:Untrained Wisdom|OUTPUTORDER:59|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:17|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:23|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:40|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:49|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:50|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:60|
+SKILL:Use Magic Device|OUTPUTORDER:61|CLASSBOUGHT:[CLASS:Magus|RANKS:1.0|COST:1|CLASSSKILL:N]
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Elven|LANGUAGE:Sylvan
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Sylvan|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Combat Style|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style ~ Archery|TYPE:RangerClassFeatures.RangerCombatStyle.ClassFeatures
+USERPOOL:Combat Style|POOLPOINTS:0.0
+ABILITY:Combat Trick Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Clustered Shots|TYPE:Combat|DESC:You take a moment to carefully aim your shots, causing them all to strike nearly the same spot.
+USERPOOL:Combat Trick Feat|POOLPOINTS:0.0
+ABILITY:Elf Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Elf Racial Subtype|POOLPOINTS:0.0
+ABILITY:Elf Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Elf ~ Silent Hunter|TYPE:RacialTraits.SpecialQuality.Extraordinary.ElfRacialTrait.ElfMagic|DESC:Elves are renowned for their subtlety and skill. Elves with this racial trait reduce the penalty for using Stealth while moving by 5 and can make Stealth checks while running at a -20 penalty (this number includes the penalty reduction from this racial trait).
+USERPOOL:Elf Racial Trait|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Deadly Aim|TYPE:Combat.AttackOption.StormbornBloodline|DESC:You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.|DESC:&amp;nl;&lbracket;Zen Archer Flurry&rbracket; You can make exceptionally deadly ranged attacks by pinpointing a foe's weak spot, at the expense of making the attack less likely to succeed.&pipe;PREABILITY&colon;1,CATEGORY=Special Ability,Zen Archer ~ Flurry of Blows
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Far Shot|TYPE:Combat.StormbornBloodline|DESC:You are more accurate at longer ranges.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Snap Shot|TYPE:Combat|DESC:You can take advantage of your opponent's vulnerabilities from a greater distance, and without exposing yourself.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Point-Blank Shot|TYPE:Combat.FeyBloodline.StormbornBloodline|DESC:You are especially accurate when making ranged attacks against close target.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Precise Shot|TYPE:Combat.FeyBloodline|DESC:You are adept at firing ranged attacks into melee.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Rapid Shot|TYPE:Combat.AttackOption|DESC:You can make an additional ranged attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Snap Shot|TYPE:Combat|DESC:With a ranged weapon, you can take advantage of any opening in your opponent's defenses.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Longbow|TYPE:Combat.WeaponFocus.DestinedBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Local),Disable Device,Escape Artist,Acrobatics,Bluff,Survival|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Magus Arcana|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Magus Arcana ~ Arcane Accuracy|TYPE:SpecialQuality.Supernatural.MagusArcana|DESC:You can expend 1 point from your arcane pool as a swift action to grant yourself a +%1 insight bonus on all attack rolls until the end of your turn.&pipe;ArcaneAccuracyMod
+ABILITY:Magus Arcana|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Magus Arcana ~ Prescient Attack|TYPE:Supernatural.MagusArcana.SpecialQuality|DESC:The magus can expend 1 point from his arcane pool as an immediate action after hitting a target with a weapon attack, allowing him to anticipate his opponent's defenses. The target is denied its Dexterity bonus against the magus's attacks until the end of the magus's next turn. The magus must be at least 6th level before selecting this arcana.
+USERPOOL:Magus Arcana|POOLPOINTS:0.0
+ABILITY:Magus Archetype|TYPE:NORMAL|CATEGORY:Archetype|KEY:Magus Archetype ~ Eldritch Archer|TYPE:Archetype.MagusArchetype|DESC:The eldritch archer rains magical attacks down on her foes from the city walls.
+USERPOOL:Magus Archetype|POOLPOINTS:0.0
+ABILITY:Magus Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Hammer the Gap|TYPE:Combat|DESC:You repeatedly strike the same location, causing increasing amounts of damage.
+USERPOOL:Magus Bonus Feat|POOLPOINTS:0.0
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Manyshot|TYPE:RangerBonusFeat|DESC:You can fire multiple arrows at a single target.
+ABILITY:Ranger Combat Style Feat|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Ranger Combat Style Feat ~ Pinpoint Targeting|TYPE:RangerBonusFeat|DESC:You can target the weak points in your opponent's armor.
+USERPOOL:Ranger Combat Style Feat|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Style I|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:The slayer selects a ranger combat style and gains a combat feat from the first feat list of that style. He can choose feats from his selected combat style, even if he does not have the normal prerequisites.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Style II|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:The slayer gains another combat style bonus feat and can add the 6th level bonus feats to the list.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Combat Trick|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.SpecialQuality.Extraordinary|DESC:You gain a bonus combat feat.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Feat|APPLIEDTO:|TYPE:SlayerTalent.SlayerAdvancedTalent.Extraordinary|DESC:You gain a feat.
+ABILITY:Slayer Talent|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Slayer Talent ~ Trapfinding|TYPE:SlayerTalent.LesserSlayerTalent.Slayer Class Feature.Extraordinary.SpecialQuality.Trapfinding|DESC:The slayer gains Disable Device as a class skill. The slayer also gains the trapfinding and trap sense Rogue abilities, using his slayer level as his effective Rogue level.
+USERPOOL:Slayer Talent|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Armor Expert|TYPE:Trait.BasicTrait.CombatTrait|DESC:You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Warrior of Old|TYPE:Trait.RaceTrait.ElfTrait|DESC:As a child, you put in long hours in combat drills, and though time has made this training a dim memory, you still have a knack for quickly responding to trouble. You gain a +2 trait bonus on Initiative checks.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Ankus|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Curve Blade (Elven)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber]
+WEAPONPROF:[WEAPON:Earth Breaker|WEAPON:Elven Branched Spear|WEAPON:Estoc|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gandasa|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)]
+WEAPONPROF:[WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)]
+WEAPONPROF:[WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Hurlbat|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana]
+WEAPONPROF:[WEAPON:Kerambit|WEAPON:Khakkhara|WEAPON:Klar|WEAPON:Kukri|WEAPON:Kumade|WEAPON:Kunai|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword]
+WEAPONPROF:[WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Machete|WEAPON:Manople|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar]
+WEAPONPROF:[WEAPON:Naginata|WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Planson|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur]
+WEAPONPROF:[WEAPON:Rapier|WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spear-Sling|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Stonebow|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)]
+WEAPONPROF:[WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Throwing Arrow Cord|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident]
+WEAPONPROF:[WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:100.00
+EQUIPNAME:Amulet of Natural Armor +3|OUTPUTORDER:1|COST:18000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Arrow|OUTPUTORDER:41|COST:0.05|WT:0.15|QUANTITY:30.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow$EQMOD=STEEL.WOOD]
+EQUIPNAME:Arrow (Blunt)|OUTPUTORDER:42|COST:0.1|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow (Blunt)|DATA:NAME=Arrow (Blunt)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Arrow (Cold Iron)|OUTPUTORDER:43|COST:0.05|WT:0.15|QUANTITY:20.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrow|DATA:NAME=Arrow (Cold Iron)$EQMOD=C_IRON]
+EQUIPNAME:Arrows (20)|OUTPUTORDER:25|COST:1.0|WT:3.0|QUANTITY:3.0|NOTE:|CUSTOMIZATION:[BASEITEM:Arrows (20)|DATA:NAME=Arrows (20)$EQMOD=STEEL.WOOD]
+EQUIPNAME:Backpack (Masterwork)|OUTPUTORDER:26|COST:50|WT:4.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Belt of Incredible Dexterity +2|OUTPUTORDER:6|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Blanket (Winter)|OUTPUTORDER:13|COST:0.5|WT:3.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Boots (Winged)|OUTPUTORDER:9|COST:16000|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Bracers of Falcon's Aim|OUTPUTORDER:4|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Breastplate (Mithral)|OUTPUTORDER:8|COST:4200.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Breastplate|DATA:NAME=Breastplate (Mithral)$EQMOD=MITHRAL_ARMR_MED]
+EQUIPNAME:Buckler +1|OUTPUTORDER:10|COST:1155.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler +1$EQMOD=STEEL.PLUS1S]
+EQUIPNAME:Cloak of Resistance +3|OUTPUTORDER:7|COST:9000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Cloak of Resistance +3|DATA:NAME=Cloak of Resistance +3$EQMOD=CLOTH]
+EQUIPNAME:Coin (Gold Piece)|OUTPUTORDER:12|COST:1|WT:0.02|QUANTITY:22.0|NOTE:
+EQUIPNAME:Coin (Platinum Piece)|OUTPUTORDER:19|COST:10|WT:0.02|QUANTITY:86.0|NOTE:
+EQUIPNAME:Composite Longbow STR (Shock)|OUTPUTORDER:45|COST:8600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow STR (Shock)$KEY=Longbow (Composite/Shock)$EQMOD=WOOD.BOWSTR&pipe;+2.PLUS1W.Special Ability ~ Shock ~ Weapon]
+EQUIPNAME:Composite Longbow STR +1 (+2)|OUTPUTORDER:39|COST:2600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Composite Longbow STR +1 (+2)$KEY=Longbow +1 (Composite/+2)$EQMOD=WOOD.BOWSTR&pipe;+2.PLUS1W]
+EQUIPNAME:Dagger +1 (Heart-Piercing/Returning/Throwing)|OUTPUTORDER:47|COST:72302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +1 (Heart-Piercing/Returning/Throwing)$EQMOD=STEEL.PLUS1W.Heart-Piercing]
+EQUIPNAME:Dagger +3 (Alchemical Silver)|OUTPUTORDER:24|COST:18322.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +3 (Alchemical Silver)$EQMOD=PLUS3W.ALCHM]
+EQUIPNAME:Dagger +3 (Planar)|OUTPUTORDER:50|COST:18302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +3 (Planar)$EQMOD=STEEL.PLUS3W]
+EQUIPNAME:Dagger +4 (Planar/Returning/Throwing)|OUTPUTORDER:48|COST:32302.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dagger|DATA:NAME=Dagger +4 (Planar/Returning/Throwing)$EQMOD=STEEL.PLUS4W]
+EQUIPNAME:Dart +3 (Planar)|OUTPUTORDER:49|COST:18300.5|WT:0.5|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Dart|DATA:NAME=Dart +3 (Planar)$EQMOD=STEEL.WOOD.PLUS3W]
+EQUIPNAME:Efficient Quiver|OUTPUTORDER:37|COST:1800|WT:2.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Elven Chain +4 (Song of Agility 1)|OUTPUTORDER:8|COST:21150.0|WT:20.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Elven Chain|DATA:NAME=Elven Chain +4 (Song of Agility 1)$EQMOD=Material ~ Mithril ~ Armor / Medium.Special Ability ~ SongAgility1 ~ Armor.Special Ability ~ +4 ~ Armor]
+EQUIPNAME:Elven Trail Rations|OUTPUTORDER:14|COST:2|WT:1.0|QUANTITY:3.0|NOTE:
+EQUIPNAME:Flint and Steel|OUTPUTORDER:15|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Greatsword +1|OUTPUTORDER:3|COST:2350.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Greatsword +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Handy Haversack|OUTPUTORDER:11|COST:2000|WT:5.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ioun Stone (Iridescent Spindle)|OUTPUTORDER:44|COST:18000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Javelin|OUTPUTORDER:38|COST:1.0|WT:2.0|QUANTITY:4.0|NOTE:|CUSTOMIZATION:[BASEITEM:Javelin|DATA:NAME=Javelin$EQMOD=STEEL.WOOD]
+EQUIPNAME:Javelin +1|OUTPUTORDER:29|COST:2301.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Javelin|DATA:NAME=Javelin +1$EQMOD=STEEL.WOOD.PLUS1W]
+EQUIPNAME:Knife (Switchblade)|OUTPUTORDER:52|COST:5.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Knife (Switchblade)|DATA:NAME=Knife (Switchblade)$EQMOD=STEEL]
+EQUIPNAME:Masterwork Composite Longbow STR (+2)|OUTPUTORDER:40|COST:600.0|WT:3.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longbow (Composite)|DATA:NAME=Masterwork Composite Longbow STR (+2)$KEY=Masterwork Longbow (Composite/+2)$EQMOD=WOOD.MWORKW.BOWSTR&pipe;+2]
+EQUIPNAME:Outfit (Cold-Weather)|OUTPUTORDER:7|COST:8|WT:7.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Cure Light Wounds|OUTPUTORDER:20|COST:50|WT:0.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Potion of Cure Moderate Wounds|OUTPUTORDER:30|COST:300|WT:0.0|QUANTITY:2.0|NOTE:
+EQUIPNAME:Potion of Cure Serious Wounds|OUTPUTORDER:31|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Fly|OUTPUTORDER:28|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Pass without Trace|OUTPUTORDER:21|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Remove Blindness/Deafness|OUTPUTORDER:27|COST:750|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Potion of Shield of Faith +2|OUTPUTORDER:22|COST:50|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Chameleon Power|OUTPUTORDER:46|COST:12700|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Invisibility|OUTPUTORDER:51|COST:20000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Jumping (Improved)|OUTPUTORDER:16|COST:10000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:2|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Sustenance|OUTPUTORDER:5|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shuriken (Adamantine)|OUTPUTORDER:33|COST:0.2|WT:0.1|QUANTITY:10.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shuriken|DATA:NAME=Shuriken (Adamantine)$EQMOD=MONK.THROWN_AMMO]
+EQUIPNAME:Shuriken +1 (Bane (Humanoids (Human)))|OUTPUTORDER:34|COST:0|WT:0.1|QUANTITY:5.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shuriken|DATA:NAME=Shuriken +1 (Bane (Humanoids (Human)))$EQMOD=MONK.STEEL.THROWN_AMMO.PLUS1M.BANE&pipe;Humanoids (Human)]
+EQUIPNAME:Sickle +1|OUTPUTORDER:23|COST:2306.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sickle|DATA:NAME=Sickle +1$EQMOD=STEEL.TRIP.PLUS1W]
+EQUIPNAME:Silversheen|OUTPUTORDER:36|COST:250|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Sunrod|OUTPUTORDER:35|COST:2|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Thieves' Tools (Masterwork)|OUTPUTORDER:32|COST:100|WT:2.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Torch|OUTPUTORDER:17|COST:0.01|WT:1.0|QUANTITY:4.0|NOTE:
+EQUIPNAME:Waterskin|OUTPUTORDER:18|COST:1|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.35|VALUE:Belt of Incredible Dexterity +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.37|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.40|VALUE:Handy Haversack|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.01|VALUE:Coin (Gold Piece)|QUANTITY:22.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.02|VALUE:Blanket (Winter)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.03|VALUE:Elven Trail Rations|QUANTITY:3.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.04|VALUE:Flint and Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.05|VALUE:Ring of Jumping (Improved)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.06|VALUE:Torch|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.07|VALUE:Waterskin|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.08|VALUE:Coin (Platinum Piece)|QUANTITY:86.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.09|VALUE:Potion of Cure Light Wounds|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.11|VALUE:Potion of Pass without Trace|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.12|VALUE:Potion of Shield of Faith +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.13|VALUE:Sickle +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.14|VALUE:Dagger +3 (Alchemical Silver)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.15|VALUE:Arrows (20)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.16|VALUE:Backpack (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.17|VALUE:Potion of Remove Blindness/Deafness|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.18|VALUE:Potion of Fly|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.19|VALUE:Javelin +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.20|VALUE:Potion of Cure Moderate Wounds|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.21|VALUE:Potion of Cure Serious Wounds|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.22|VALUE:Thieves' Tools (Masterwork)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.24|VALUE:Shuriken (Adamantine)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.25|VALUE:Shuriken +1 (Bane (Humanoids (Human)))|QUANTITY:5.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.26|VALUE:Sunrod|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Handy Haversack|ID:0.1.40.27|VALUE:Silversheen|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.42|VALUE:Efficient Quiver|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.01|VALUE:Javelin|QUANTITY:4.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.02|VALUE:Composite Longbow STR +1 (+2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.03|VALUE:Masterwork Composite Longbow STR (+2)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.04|VALUE:Arrow|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.05|VALUE:Arrow (Blunt)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.42.06|VALUE:Arrow (Cold Iron)|QUANTITY:20.0|USETEMPMODS:Y
+EQUIPSET:Shield|ID:0.1.43|VALUE:Buckler +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.44|VALUE:Greatsword +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.45|VALUE:Ioun Stone (Iridescent Spindle)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Wrist|ID:0.1.47|VALUE:Bracers of Falcon's Aim|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.52|VALUE:Ring of Sustenance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.53|VALUE:Ring of Chameleon Power|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.55|VALUE:Cloak of Resistance +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.58|VALUE:Dagger +1 (Heart-Piercing/Returning/Throwing)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.59|VALUE:Dagger +4 (Planar/Returning/Throwing)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.60|VALUE:Dart +3 (Planar)|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.61|VALUE:Dagger +3 (Planar)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.62|VALUE:Amulet of Natural Armor +3|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.65|VALUE:Efficient Quiver|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.65.01|VALUE:Arrow|QUANTITY:10.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.65.02|VALUE:Arrows (20)|QUANTITY:2.0|USETEMPMODS:Y
+EQUIPSET:Efficient Quiver|ID:0.1.65.03|VALUE:Composite Longbow STR (Shock)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Feet|ID:0.1.67|VALUE:Boots (Winged)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.68|VALUE:Ring of Invisibility|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.69|VALUE:Knife (Switchblade)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.70|VALUE:Elven Chain +4 (Song of Agility 1)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Deadly Aim|TBTARGET:Composite Longbow STR +1 (+2)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;2*DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-DEADLYAIMMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+SPELLBOOK:Magic Item|TYPE:4
+SPELLNAME:Acid Splash|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Arcane Mark|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Blend|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Burning Hands|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Dancing Lights|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Daze|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Detect Magic|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Disrupt Undead|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Expeditious Retreat|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Feather Fall|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Flare|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Ghost Sound|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Grease|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Gust of Wind|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Invisibility|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Light|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Mage Hand|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Magic Missile|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Mirror Image|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Open/Close|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Prestidigitation|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Ray of Frost|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Read Magic|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Scorching Ray|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Shield|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Shocking Grasp|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Spark|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:0|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Spider Climb|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Stone Discus|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:2|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:True Strike|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+SPELLNAME:Vanish|TIMES:1|CLASS:Magus|BOOK:Known Spells|SPELLLEVEL:1|SOURCE:[TYPE:CLASS|NAME:Magus]
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

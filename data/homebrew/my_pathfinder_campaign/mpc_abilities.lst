@@ -1,0 +1,88 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
+
+# Class Feature Blank
+#	KEY:xxx ~
+#	CATEGORY:Special Ability
+#	TYPE:xxx Class Feature.SpecialQuality
+#	SOURCEPAGE:p.
+#	DESC:
+
+# Race or Racial Trait Blank
+#	KEY:xxx ~
+#	CATEGORY:Special Ability
+#	TYPE:xxx Race Trait.Race Trait.SpecialQuality
+#	SOURCEPAGE:p.
+#	DESC:
+
+
+###Block: Barbarian Abilities
+# Ability Name	Unique Key			Category of Ability		Type						Description																																																																																																																																																																																																																					Modify VAR					Source Page
+#	Rage		KEY:Barbarian ~ Rage	CATEGORY:Special Ability	TYPE:Barbarian Class Feature.Rage	DESC:You can call upon inner reserves of strength and ferocity, granting you additional combat prowess. You can rage for %1 rounds per day. You can enter rage as a free action. The total number of rounds of rage per day is renewed after resting for 8 hours, although these hours do not need to be consecutive. While in rage, you gain a +%2 morale bonus to your Strength and a +%3 morale bonus to Constitution, as well as a +%4 morale bonus on Will saves. In addition, you take a -2 penalty to Armor Class. The increase to Constitution grants you %5 hit points, but these disappear when the rage ends and are not lost first like temporary hit points. While in rage, you cannot use any Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride) or any ability that requires patience or concentration. You can end your rage as a free action and are fatigued after rage for a number of rounds equal to 2 times the number of rounds spent in the rage. You cannot enter a new rage while fatigued or exhausted but can otherwise enter rage multiple times during a single encounter or combat. If you fall unconscious, your rage immediately ends, placing you in peril of death.|RageDuration|RageStrBonus|RageConBonus|RageSaveBonus|(RageConBonus/2)*TL	BONUS:VAR|RageLVL|BarbarianLVL	SOURCEPAGE:p.32
+
+#	Defensive Training	KEY:Dwarf ~ Defensive Training	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary.Dwarf Racial Trait	PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Dwarf ~ Defensive Training],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.DwarfDefensiveTraining]	DEFINE:RacialDefensiveTrainingBonus|0	DESC:Dwarves get a +%1 dodge bonus to AC against humanoid creatures of the giant subtype.|RacialDefensiveTrainingBonus		BONUS:VAR|RacialDefensiveTrainingBonus|4		SOURCEPAGE:p.21	ASPECT:CombatBonus|+%1 dodge bonus to AC against humanoid creatures of the giant subtype.|RacialDefensiveTrainingBonus
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Feat File tags" to find
+#out how the tags in the feats file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+# Abilities are the newest method for all aspects of class & race abilities. Currently we use hidden feats to emulate
+# class and racial abilities. The advent of Abilities allows us to use one standard format for a variety of things.
+# Generally Abilities are exactly the same in format as a Feat with the exception of a NEW tag CATEGORY which tells
+# PCGen what the ability is to be categoried as - example: My Ability is part of the my_abilities category, So I can add
+# points only to the my_abilities allowing very small and restricted lists. Another example would be Fighter Bonus feats.
+#
+# Feat and ability are used through out this example as they almost the same thing - ABILITY can also be used to add "Feats"
+# using the CATEGORY:FEAT tag.
+# You can also use PREFEAT for any CATEGORY:FEAT, for the rest you'll need to use PREABILITY:x,CATEGORY=<category>,Foo,TYPE.Bar (x is the number)
+#####1st Example
+
+#####
+#Each ability takes one line, just like a feat, and the first field must be the abilities' name. In the Example the name of the ability is My Ability.
+#When naming feats you should only use parentheses at the end of the name if the name is not duplicated elsewhere. This is
+#because of how PCGen names abilities which can be taken multiple times. For example, the Feat/ability Weapon Focus when taken will display
+#as Weapon Focus(Dagger). Another example is Armor Proficiency (Light), there is no feat named Armor Proficiency so this name
+#is fine. What is happening is when PCGen finds a feat with parentheses that duplicates the name of another feat it assumes
+#that feat is an instance of the one without parentheses and does not display the one with parentheses.
+#
+#The TYPE tag is holding a . (period) delimited list of the types the ability/feat is.
+#
+#The DESC tag is used to hold the description of the Ability/Feat. In our files we usually keep the description brief, so the user
+#still need to own the book to make use of of the data, but for your personal files can get as elaborate as you want there.
+#
+#The MULT tag determines if a ability/feat can be taken multiple times. If the value is set to YES, then you MUST also use a CHOOSE
+#tag.
+#
+#The CHOOSE tag must be paired with a MULT:YES tag in feats for it to work properly. It will display a popup window that asks
+#for a selection according to what is being called for. There is a multitude of existing CHOOSE tags in PCGen. If you are
+#looking into the documentation under List File Tag Index, you can find them listed under the topic "CHOOSE tags".
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.
+
+Demon Slayer				KEY:Trait ~ Demon Slayer							CATEGORY:Special Ability	TYPE:Trait.RegionalTrait								PREMULT:1,[PREABILITY:1,CATEGORY=Special Ability,Trait ~ Demon Slayer],[PREVAREQ:BypassTraitRestriction,1],[!PREABILITY:1,CATEGORY=Special Ability,TYPE.RegionalTrait]						DESC:Having fought in many battles against the corruption in the jungle, you have learned the best ways to kill the various creatures under his control. You gain a +2 trait bonus on weapon damage against demons, evil fey, and plants and animals corrupted by evil.																																																																																											SOURCEPAGE:p.10
+
+
+Improved Leadership		KEY:Warlord ~ Improved Leadership	CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:A Warlord +1 bonus to her leadership score.
+Fear Immunity		KEY:Warlord ~ Fear Immunity		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural		DESC:The warlord, not his enemy, chooses when to ﬁght and when to run. The warlord is immune to magical fear. Any of the warlord’s followers are also immune to fear as long as the warlord is within their line of sight.
+Fervor			KEY:Warlord ~ Fervor		CATEGORY:Special Ability	TYPE:SpecialQuality.Supernatural		DESC:The warlord’s presence in battle inspires confidence and courage. The warlord’s followers gain the warlord’s Charisma modifier as a bonus to all mind-affecting spells as long as the warlord is within their line of sight.
+Leitunant			KEY:Warlord ~ Leitunant		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:At 5th level, the warlord gains a special cohort as if his Leadership score were 3 points higher than it actually is. He does not count against the limit to the warlord’s number of followers or cohorts. This cohort is especially faithful and serves the warlord unless the warlord changes alignment.
+Heroic Leader			KEY:Warlord ~ Heroic Leader		CATEGORY:Special Ability	TYPE:SpecialQuality.Extraordinary		DESC:For the first round of melee combat in a battle, all friendly troops gain a morale bonus to attack rolls equal to the warlord’s Charisma modiﬁer.
+
+#Eldritch Archer		KEY:Magus Archetype ~ Eldritch Archer		CATEGORY:Archetype	TYPE:Archetype.MagusArchetype.MagusClassSkills.MagusSpellstrike.MagusCounterstrike		PRECLASS:1,Magus=1	PREMULT:1,[PREABILITY:1,CATEGORY=Archetype,Magus Archetype ~ Eldritch Archer],[!PREABILITY:1,CATEGORY=Archetype,TYPE.MagusArcanePool,TYPE.MagusSpellCombat,TYPE.MagusSpellstrike,TYPE.MagusCounterstrike]	DESC:The eldritch archer rains magical attacks down on her foes from the city walls.	ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Class Skills|PRECLASS:1,Magus=1		ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Arcane Pool|PRECLASS:1,Magus=1	ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Ranged Weapon Bond|PRECLASS:1,Magus=1		ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Ranged Spell Combat|PRECLASS:1,Magus=1	ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Ranged Spellstrike|PRECLASS:1,Magus=2	ABILITY:Magus Class Feature|AUTOMATIC|Eldritch Archer ~ Focusing Spellstrike|PRECLASS:1,Magus=16	COST:0	SOURCEPAGE:p.55	ASPECT:Archetype Base Class|Magus
+
+
+# Eldritch Archer
+#Eldritch Archer					KEY:Eldritch Archer ~ Class Skills					CATEGORY:Internal	TYPE:MagusClassFeatures.Extraordinary.ArchetypeAbility.SpecialQuality		DESC:An eldritch archer gains Perception as a class skill, but does not gain Use Magic Device as a class skill.		CSKILL:Climb|TYPE=Craft|Fly|Intimidate|Knowledge (Arcana)|Knowledge (Dungeoneering)|Knowledge (Planes)|Perception|TYPE=Profession|Ride|Spellcraft|Swim	SOURCEPAGE:p.129
+#Ranged Arcane Pool		KEY:Eldritch Archer ~ Arcane Pool		CATEGORY:Special Ability	TYPE:MagusClassFeatures.ArchetypeAbility.SpecialQuality		DESC:An eldritch archer's choices of weapon special abilities to apply with arcane pool at 5th level include distance, nimble shot, and returning but not dancing, keen, or vorpal. This ability modifies the magus's arcane pool.		ABILITY:Internal|AUTOMATIC|Magus SpellCasting Reduction		SOURCEPAGE:p.56
+#Ranged Weapon Bond			KEY:Eldritch Archer ~ Ranged Weapon Bond			CATEGORY:Special Ability	TYPE:MagusClassFeatures.Extraordinary.ArchetypeAbility.SpecialQuality		DESC:At 1st level, an eldritch archer gains a bonded object as per the wizard's arcane bonded object; it must be a ranged weapon, and it can't be used to cast a spell once per day. Holding her bonded item does not prevent the eldritch archer from providing somatic components for her spells.		SOURCEPAGE:p.56
+#Ranged Spell Combat			KEY:Eldritch Archer ~ Ranged Spell Combat			CATEGORY:Special Ability	TYPE:MagusClassFeatures.Extraordinary.ArchetypeAbility.SpecialQuality		DESC:Instead of a light or one-handed melee weapon, an eldritch archer must use a ranged weapon for spell combat. She doesn't need a free hand for ranged spell combat. The eldritch archer cannot accept an attack penalty to gain a bonus on concentration checks to cast a spell defensively.		SOURCEPAGE:p.56
+#Ranged Spellstrike		KEY:Eldritch Archer ~ Ranged Spellstrike			CATEGORY:Special Ability	TYPE:MagusClassFeatures.Supernatural.ArchetypeAbility.SpecialQuality		DESC:At 2nd level, whenever an eldritch archer casts a spell that calls for a ranged attack, she can deliver the spell through a ranged weapon she wields as part of a ranged attack. Instead of the free ranged attack normally allowed to deliver the spell, an eldritch archer can make one free ranged attack with a ranged weapon (at her highest base attack bonus) as part of casting this spell. The attack does not increase the spell's range.If the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies each attack; if the spell allows multiple attacks and the eldritch archer can make additional ranged attacks as part of a full-round action with spell combat, one additional ray, missile, or effect from the spell accompanies each subsequent ranged attack the eldritch archer makes in the same round until all attacks allowed by the spell are made. Unused missiles, rays, or effects remaining at the end of the eldritch archer's turn are wasted.		SOURCEPAGE:p.56
+#Focusing Spellstrike			KEY:Eldritch Archer ~ Focusing Spellstrike			CATEGORY:Special Ability	TYPE:MagusClassFeatures.Extraordinary.ArchetypeAbility.SpecialQuality		DESC:At 16th level, an eldritch archer can use ranged spellstrike to deliver a cone- or line-shaped spell as a ray, affecting only the creature or object struck.		SOURCEPAGE:p.56

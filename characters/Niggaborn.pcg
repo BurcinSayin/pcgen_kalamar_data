@@ -1,0 +1,266 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Kingdoms of Kalamar Campaign
+VERSION:6.07.00
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Niggaborn
+TABNAME:
+PLAYERNAME:Burak
+HEIGHT:72
+WEIGHT:190
+AGE:23
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:16
+STAT:DEX|SCORE:12
+STAT:CON|SCORE:14
+STAT:INT|SCORE:13
+STAT:WIS|SCORE:17
+STAT:CHA|SCORE:7
+ALIGN:CG
+RACE:Human
+
+# Character Class(es)
+CLASS:Cleric|LEVEL:12|SKILLPOOL:4
+CLASSABILITIESLEVEL:Cleric=1|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=2|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=3|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=4|HITPOINTS:7|PRESTAT:STR=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=5|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=6|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=7|HITPOINTS:7|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=8|HITPOINTS:5|PRESTAT:WIS=1|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=9|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=10|HITPOINTS:8|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=11|HITPOINTS:6|SKILLSGAINED:4|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Cleric=12|HITPOINTS:7|PRESTAT:WIS=1|SKILLSGAINED:4|SKILLSREMAINING:4
+
+# Character Experience
+EXPERIENCE:183430
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|CLASSBOUGHT:[CLASS:Cleric|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (Arcana)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Planes)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Cleric|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:32|CLASSBOUGHT:[CLASS:Cleric|RANKS:10.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:33|
+SKILL:Perception|OUTPUTORDER:35|
+SKILL:Perform (Untrained)|OUTPUTORDER:36|
+SKILL:Profession (Soldier)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Cleric|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Cleric|RANKS:8.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Spellcraft|OUTPUTORDER:46|CLASSBOUGHT:[CLASS:Cleric|RANKS:9.0|COST:1|CLASSSKILL:Y]
+SKILL:Stealth|OUTPUTORDER:47|
+SKILL:Survival|OUTPUTORDER:48|
+SKILL:Swim|OUTPUTORDER:49|
+SKILL:Untrained Charisma|OUTPUTORDER:50|
+SKILL:Untrained Dexterity|OUTPUTORDER:51|
+SKILL:Untrained Intelligence|OUTPUTORDER:52|
+SKILL:Untrained Strength|OUTPUTORDER:53|
+SKILL:Untrained Wisdom|OUTPUTORDER:54|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:34|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:55|
+
+# Character Languages
+LANGUAGE:Common|LANGUAGE:Goblin
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:*LANGBONUS|TYPE:VIRTUAL|CATEGORY:*LANGBONUS|KEY:*LANGBONUS|APPLIEDTO:Goblin|TYPE:
+USERPOOL:*LANGBONUS|POOLPOINTS:0.0
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Constitution|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Channel Energy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Hospitaler ~ Channel Positive Energy|TYPE:ClassFeatures.PaladinClassFeatures.SpecialQuality.Supernatural.Channel Energy.Channel Energy Positive.Channel Positive Energy.PaladinChannelPositiveEnergy|DESC:You can unleash a wave of positive energy. You must choose to deal %1d%2 points of positive energy damage to undead creatures or to heal living creatures of %1d%2 points of damage. Creatures that take damage from channeled energy receive a DC %3 Will save to halve the damage. You can use this ability %4 times per day.&pipe;PaladinChannelPositiveEnergyDice&pipe;PaladinChannelPositiveEnergyDieSize&pipe;PaladinChannelPositiveEnergyDC&pipe;PaladinChannelEnergyTimes
+USERPOOL:Channel Energy|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Defiant Luck|TYPE:General|DESC:You can sometimes defiantly shrug off spells and attacks that would kill a lesser creature.|DESC:If you are using the optional hero point system, you can also spend 1 hero point when a critical hit is confirmed against you to have the opponent reroll the critical hit confirmation roll.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Furious Focus|TYPE:Combat|DESC:Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly wild blows strike home.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Greatsword|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Outflank|TYPE:Combat.Teamwork|DESC:You look for every edge when flanking an enemy.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Cleric|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:,,,,,,,,|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Profession (Soldier),Spellcraft|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Killer|TYPE:Trait.BasicTrait.CombatTrait|DESC:You made your first kill at a very young age and found the task of war or murder to your liking. You deal additional damage equal to your weapon's critical hit modifier when you score a successful critical hit with a weapon; this additional damage is added to the final total, and is not multiplied by the critical hit multiple itself. This extra damage is a trait bonus.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Veteran of Battle|TYPE:Trait.ReligionTrait|DESC:You have fought in several battles, and each time felt the presence of Gorum guiding your sword-arm, making you ready to act at a moment's notice. You gain a +1 trait bonus on Initiative checks, and if you are able to act during a surprise round, you may a draw a weapon (but not a potion or magic item) as a free action during that round.
+USERPOOL:Traits|POOLPOINTS:0.0
+ABILITY:Variant Channeling|TYPE:NORMAL|CATEGORY:Special Ability|KEY:1. Standard Channeling|TYPE:VariantChanneling
+USERPOOL:Variant Channeling|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Battle Aspergillum|WEAPON:Bayonet|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Cestus|WEAPON:Club|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger]
+WEAPONPROF:[WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Gaff|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Grapple|WEAPON:Greatsword|WEAPON:Hanbo|WEAPON:Javelin]
+WEAPONPROF:[WEAPON:Khakkhara|WEAPON:Kumade|WEAPON:Kunai|WEAPON:Longspear|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mere Club|WEAPON:Morningstar|WEAPON:Quarterstaff|WEAPON:Rock]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Stonebow]
+WEAPONPROF:[WEAPON:Unarmed Strike|WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:Weighted Spear]
+
+# Character Equipment
+MONEY:1510
+EQUIPNAME:Amulet of Protection from Evil|OUTPUTORDER:1|COST:20000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Amulet|DATA:NAME=Amulet of Protection from Evil$EQMOD=SPL_CON_MINUTES&pipe;SPELLNAME&lbracket;Protection from Evil&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;1&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=the wearer is continually under the effect of Protection from Evil spell, (Amulet (Protection from Evil/Cleric/5th))]
+EQUIPNAME:Belt of Giant Strength +2|OUTPUTORDER:8|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Chainmail +5|OUTPUTORDER:10|COST:25300.0|WT:40.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chainmail|DATA:NAME=Chainmail +5$EQMOD=STEEL.PLUS5A]
+EQUIPNAME:Cloak of Resistance +2|OUTPUTORDER:9|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Eyes of the Owl|OUTPUTORDER:3|COST:4000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Greatsword +3 (Defending)|OUTPUTORDER:5|COST:32350.0|WT:8.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Greatsword|DATA:NAME=Greatsword +3 (Defending)$EQMOD=STEEL.PLUS3W.DEFEND]
+EQUIPNAME:Headband of Inspired Wisdom +2|OUTPUTORDER:2|COST:4000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Horse (Light)|OUTPUTORDER:17|COST:75|WT:600.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Pearl of Power (2nd Level)|OUTPUTORDER:11|COST:4000.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Pearl of Power (2nd Level)|DATA:NAME=Pearl of Power (2nd Level)$EQMOD=USES_PER_DAY_1&pipe;CHARGES&lbracket;1&rbracket;]
+EQUIPNAME:Potion of Delay Poison|OUTPUTORDER:15|COST:300.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Delay Poison$EQMOD=SPL_1USE&pipe;SPELLNAME&lbracket;Delay Poison&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; $SPROP=(Potion (Delay Poison/Cleric/3rd))]
+EQUIPNAME:Potion of Fly|OUTPUTORDER:14|COST:750.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Fly$EQMOD=SPL_1USE&pipe;SPELLNAME&lbracket;Fly&rbracket; CASTER&lbracket;Wizard&rbracket; SPELLTYPE&lbracket;Arcane&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=(Potion (Fly/Wizard/5th))]
+EQUIPNAME:Potion of Remove Blindness/Deafness|OUTPUTORDER:13|COST:750.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Potion|DATA:NAME=Potion of Remove Blindness/Deafness$EQMOD=SPL_1USE&pipe;SPELLNAME&lbracket;Remove Blindness/Deafness&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;3&rbracket; CASTERLEVEL&lbracket;5&rbracket; $SPROP=(Potion (Remove Blindness/Deafness/Cleric/5th))]
+EQUIPNAME:Ring of Freedom of Movement|OUTPUTORDER:4|COST:40000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Ring of Sustenance|OUTPUTORDER:6|COST:2500|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Vestments (Cleric's)|OUTPUTORDER:7|COST:0|WT:6.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Vestments (Cleric's)|DATA:NAME=Vestments (Cleric's)$COSTMOD=-5]
+EQUIPNAME:Wand of Divine Favor|OUTPUTORDER:7|COST:615.0|WT:0.0625|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Divine Favor$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Divine Favor&rbracket;SPELLLEVEL&lbracket;1&rbracket;CASTERLEVEL&lbracket;1&rbracket;CHARGES&lbracket;41&rbracket;$SPROP=Calling upon the strength and wisdom of a deity, you gain a +1 to +3 luck bonus on attack and weapon damage rolls.]
+EQUIPNAME:Wand of Lesser Restoration|OUTPUTORDER:12|COST:4500.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Wand|DATA:NAME=Wand of Lesser Restoration$EQMOD=SPL_CHRG&pipe;SPELLNAME&lbracket;Restoration (Lesser)&rbracket; CASTER&lbracket;Cleric&rbracket; SPELLTYPE&lbracket;Divine&rbracket; SPELLLEVEL&lbracket;2&rbracket; CASTERLEVEL&lbracket;3&rbracket; CHARGES&lbracket;50&rbracket; $SPROP=(Wand (Restoration (Lesser)/Cleric/3rd))]
+EQUIPNAME:Warriors and Faiths|OUTPUTORDER:16|COST:5|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Artisan's Tools (Books)|DATA:NAME=Warriors and Faiths$SPROP=book found in Fatespinner library]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.04|VALUE:Vestments (Cleric's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.06|VALUE:Wand of Divine Favor|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Neck|ID:0.1.08|VALUE:Amulet of Protection from Evil|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Warriors and Faiths|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Belt|ID:0.1.11|VALUE:Belt of Giant Strength +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.12|VALUE:Headband of Inspired Wisdom +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.13|VALUE:Cloak of Resistance +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.14|VALUE:Ring of Freedom of Movement|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.15|VALUE:Pearl of Power (2nd Level)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Eyes|ID:0.1.16|VALUE:Eyes of the Owl|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Both Hands|ID:0.1.18|VALUE:Greatsword +3 (Defending)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.19|VALUE:Chainmail +5|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Not Carried|ID:0.1.20|VALUE:Horse (Light)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.21|VALUE:Wand of Lesser Restoration|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.22|VALUE:Ring of Sustenance|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.23|VALUE:Potion of Remove Blindness/Deafness|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.24|VALUE:Potion of Fly|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.25|VALUE:Potion of Delay Poison|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Greatsword +3 (Defending)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:Gorum|DEITYDOMAINS:[DOMAIN:Chaos|DOMAIN:Destruction|DOMAIN:Glory|DOMAIN:Strength|DOMAIN:War|DOMAIN:Blood Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Protean Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Resolve Subdomain|DOMAIN:Tactics Subdomain]|ALIGNALLOW:|DESC:God of battle, strength, weapons|DEITYFAVWEAP:[WEAPON:Greatsword]|DEITYALIGN:CN
+DOMAIN:Ferocity Subdomain|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+DOMAIN:Destruction|DOMAINGRANTS:You revel in ruin and devastation, and can deliver particularly destructive attacks.|SOURCE:[TYPE:PCClass|NAME:Cleric|LEVEL:1]
+
+# Character Spells Information
+SPELLBOOK:Magic Item|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

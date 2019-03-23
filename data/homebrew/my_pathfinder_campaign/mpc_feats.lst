@@ -1,0 +1,67 @@
+# CVS $Revision$ $Author$ -- Tue Dec 15 01:48:08 2015 -- reformated by PCGen PrettyLST v6.06.00
+SOURCELONG:My Pathfinder Campaign	SOURCESHORT:MPC	SOURCEWEB:http://www.mpcwebsite.com	SOURCEDATE:2008-01
+
+#insert your data here
+
+#Every line that starts with a '#' is a comment. You may want to remove these comments, if you use this file to set up
+#your own data. Remember not to put the '#' at the start of your own data, as PCGen would see it as a comment only.
+#
+#When Running PCGen, you can select "Help > Documentation > List Files > List File Tag Index > Feat File tags" to find
+#out how the tags in the feats file work. Some of the tags used here are global tags. You will see an alphabetical
+#listing of all PCGen tags to the left of the documentation window. You can find the global tags there as well.
+#
+#
+#
+#
+#####1st Example
+
+#	Skill Focus		CATEGORY:FEAT	TYPE:General.SkillFocus	DESC:You are particularly adept at your chosen skill.	STACK:NO	MULT:YES	CHOOSE:SKILL|TYPE=Charisma|TYPE=Dexterity|TYPE=Intelligence|TYPE=Strength|TYPE=Wisdom	SOURCEPAGE:p.134	BENEFIT:You get a +3 bonus on all checks involving the chosen skill. If you have 10 or more ranks in that skill, this bonus increases to +6.
+# The bonus to the skill is in the Skill File, however, you can bonus the skill directly by adding the following:
+#	BONUS:SKILL|%LIST|3
+# %LIST is a substitution, and then the number is applied to the chosen skill(s).
+
+#####
+#Each feat takes one line and the first field must be the feat's name. In the Example the name of the feat is Skill Focus.
+#When naming feats you should only use parentheses at the end of the name if the name is not duplicated elsewhere. This is
+#because of how PCGen names feats which can be taken multiple times. For example, the Feat Weapon Focus when taken will display
+#as Weapon Focus(Dagger). Another example is Armor Proficiency (Light), there is no feat named Armor Proficiency so this name
+#is fine. What is happening is when PCGen finds a feat with parentheses that duplicates the name of another feat it assumes
+#that feat is an instance of the one without parentheses and does not display the one with parentheses.
+#
+#The TYPE tag is holding a . (period) delimited list of the types the feat is.
+#
+#The DESC tag is used to hold the description of the Feat. In our files we usually keep the description brief, so the user
+#still need to own the book to make use of of the data, but for your personal files can get as elaborate as you want there.
+#
+#The MULT tag determines if a feat can be taken multiple times. If the value is set to YES, then you MUST also use a CHOOSE
+#tag.
+#
+#The CHOOSE tag must be paired with a MULT:YES tag in feats for it to work properly. It will display a popup window that asks
+#for a selection according to what is being called for. There is a multitude of existing CHOOSE tags in PCGen. If you are
+#looking into the documentation under List File Tag Index, you can find them listed under the topic "CHOOSE tags".
+#
+#The BONUS tags are a group of similar tags, that grant some form of Bonus to another already existing tag. To read a description
+#of them, look in the List File Tag Index under the topic "Bonus tags".
+#
+#The SOURCEPAGE tag can be used to hold a reference to where you can find the feat. This will be displayed in PCGen.
+Natural Spell(Hunter)	CATEGORY:FEAT	TYPE:General	DESC:You can cast spells even while in a form that cannot normally cast spells.																																																																																																																																																																																																																																																																																						SOURCEPAGE:p.131	BENEFIT:You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell. You can also use any material components or focuses you possess, even if such items are melded within your current form. This feat does not permit the use of magic items while you are in a form that could not ordinarily use them, and you do not gain the ability to speak while using wild shape.
+Wild Speech(Hunter)		CATEGORY:FEAT	TYPE:General	DEFINE:WildSpeechCasterLevel|0	DEFINE:WildSpeechDuration|0			DESC:You speak with the tongue of men and beasts.	BONUS:VAR|WildSpeechCasterLevel|classlevel("Hunter")	BONUS:VAR|WildSpeechDuration|classlevel("Hunter")		SOURCEPAGE:p.159	BENEFIT:When using wild shape to take the form in which you cannot speak (such as an animal), you are able to speak normally in any language you know. This allows you to cast spells with verbal components, speak command words, and activate spell completion and spell trigger items. However, it does not give you the ability to cast spells requiring somatic components unless you also have the Natural Spell feat, or cast spells with material components merged into your form.	BENEFIT:When using wild shape to take the form of an animal, you may use speak with animals to communicate with animals of your assumed form. This is a spell-like ability with a caster level of %1, and you may use it for %2 minutes per day. These minutes do not have to be consecutive, but must be used in one-minute increments.|WildSpeechCasterLevel|WildSpeechDuration
+Ranged Feint	CATEGORY:FEAT	TYPE:Combat	DESC:You can mislead foes about your aim with ranged attacks.	SOURCEPAGE:p.131	BENEFIT:You can feint with a ranged weapon by throwing a thrown weapon or firing one arrow, bolt, bullet, or other piece of ammunition; this feint takes the same action as normal to feint, but depending on your weapon, you might have to reload or draw another weapon afterward. When you successfully use a ranged feint, you deny that enemy its Dexterity bonus to AC against your ranged attacks as well as your melee attacks for the same duration as normal. If your feints normally deny a foe its Dexterity bonus to AC against attacks other than your own, this applies only against others' melee attacks.
+Dirty Fighting	CATEGORY:FEAT	TYPE:Combat	DESC:When you attempt a combat maneuver check against a foe you are flanking, you can forgo the +2 bonus on your attack roll for flanking to instead have the combat maneuver not provoke an attack of opportunity. If you have a feat or ability that allows you to attempt the combat maneuver without provoking an attack of opportunity, you can instead increase the bonus on your attack roll for flanking to +4 for the combat maneuver check.
+Improved Grapple(Dirty)		CATEGORY:FEAT		TYPE:Combat.AttackOption			PREABILITY:1,CATEGORY=FEAT,Dirty Fighting		DESC:You are skilled at grappling opponents.	BONUS:VAR|CMB_Grapple,CMD_Grapple|2	SOURCEPAGE:p.127	BENEFIT:You do not provoke an attack of opportunity when performing a grapple combat maneuver. In addition, you receive a +2 bonus on checks made to grapple a foe. You also receive a +2 bonus to your Combat Maneuver Defense whenever an opponent tries to grapple you.
+
+Piranha Strike		CATEGORY:FEAT		TYPE:Combat.AttackOption	PREABILITY:1,CATEGORY=FEAT,Weapon Finesse											PRETOTALAB:1		DEFINE:PiranhaStrikeModifier|0		DEFINE:MonkPiranhaStrikeModifier|0		DESC:You make a combination of quick strikes, sacrificing accuracy for multiple, minor wounds that prove exceptionally deadly.		ABILITY:FEAT|VIRTUAL|Piranha Strike (Light)|Piranha Strike (Off-Hand)|Piranha Strike (One-Handed)		ABILITY:FEAT|VIRTUAL|Piranha Strike (Flurry)|PRECLASS:1,Monk=1		BONUS:VAR|PiranhaStrikeModifier|(BAB/4)+1	DEFINE:PiranhaStrikeDamageModifier|0	DEFINE:PiranhaStrikeDamageBase|0	BONUS:VAR|PiranhaStrikeDamageBase|2	BONUS:VAR|PiranhaStrikeDamageModifier|PiranhaStrikeDamageBase*floor(PiranhaStrikeModifier)	BONUS:VAR|MonkFlurryPiranhaStrikeModifier|BAB+(FlurryLVL-MonkBAB)	SOURCEPAGE:p.131	BENEFIT:When wielding a light weapon, you can choose to take a -%1 penalty on all melee attack rolls and combat maneuver checks to gain a +%2 bonus on all melee damage rolls. This bonus to damage is halved (-50%%) if you are making an attack with an off-hand weapon or secondary natural weapon. You must choose to use this feat before making an attack roll, and its effects last until your next turn. The bonus damage does not apply to touch attacks or effects that do not deal hit point damage. This feat cannot be used in conjunction with the Power Attack feat.|PiranhaStrikeModifier|PiranhaStrikeDamageModifier
+Inverted Grip	CATEGORY:FEAT		TYPE:Combat.AttackOption	DESC:When you perform a full-attac action with a single weapon. You may add you Dodge Bonus to AC to your damage roll instead of your Strength mod. (you still retain you strength penalty if any)	ABILITY:FEAT|VIRTUAL|Inverted Grip (One-Handed) 	SOURCEPAGE:Kalamar CpSt		BENEFIT:When you perform a full-attac action with a single weapon. You may add you Dodge Bonus to AC to your damage roll instead of your Strength mod. (you still retain you strength penalty if any)
+Double Inverted Grip	CATEGORY:FEAT		TYPE:Combat.AttackOption	DESC:You can use Inverted grip style with two weapons	SOURCEPAGE:Kalamar CpSt		BENEFIT:You can use Inverted grip style with two weapons
+Sword Dance		CATEGORY:FEAT		TYPE:Combat		DESC:Sword Dance	SOURCEPAGE:Kalamar CpSt		BENEFIT:Sword Dance
+Smite Evil Magic	CATEGORY:FEAT		TYPE:General	PREABILITY:1,CATEGORY=Special Ability,TYPE.Smite Evil	DESC:You can expend a use of your smite evil class ability to perform a sunder combat maneuver against an ongoing spell effect created by an evil creature.	SOURCEPAGE:Custom	BENEFIT:You can expend a use of your smite evil class ability to perform a sunder combat maneuver against an ongoing spell effect created by an evil creature. For any effect other than one on a creature, the CMD equals 15 + the effect’s caster level. When sundering an effect on a creature, use the creature’s CMD + 5, ignoring any miss chance caused by a spell or spell-like ability. If successful, you suppress the effect for 1d4+1 rounds. If you exceed the CMD by 10 or more, the effect is dispelled. If an evil outsider, evil dragon, or undead creature created the spell effect, add your Charisma bonus to your combat maneuver check.
+
+
+###Block: Piranha Strike helper feats for temporary bonuses
+# Ability Name				Category of Ability	Visible	Modify VAR																														Temporary Bonus
+Piranha Strike (Off-Hand)			CATEGORY:FEAT		VISIBLE:NO																																TEMPBONUS:EQ|Weapon,Melee,Light;Natural;OneHanded|WEAPON|TOHIT|-PiranhaStrikeModifier|TYPE=Temporary	TEMPBONUS:EQ|Weapon,Melee,Light;Natural;OneHanded|WEAPON|DAMAGE|(PiranhaStrikeDamageBase/2)+PiranhaStrikeModifier|TYPE=Temporary
+Piranha Strike (Light)			CATEGORY:FEAT		VISIBLE:NO																																TEMPBONUS:EQ|Weapon,Melee,Light;Natural|WEAPON|TOHIT|-PiranhaStrikeModifier|TYPE=Temporary	TEMPBONUS:EQ|Weapon,Melee,Light;Natural|WEAPON|DAMAGE|PiranhaStrikeDamageBase*PiranhaStrikeModifier|TYPE=Temporary
+Piranha Strike (One-Handed)		CATEGORY:FEAT		VISIBLE:NO																																TEMPBONUS:EQ|Weapon,Melee,OneHanded;Natural|WEAPON|TOHIT|-PiranhaStrikeModifier|TYPE=Temporary	TEMPBONUS:EQ|Weapon,Melee,OneHanded;Natural|WEAPON|DAMAGE|PiranhaStrikeDamageBase*PiranhaStrikeModifier|TYPE=Temporary
+Piranha Strike (Flurry)			CATEGORY:FEAT		VISIBLE:NO																																TEMPBONUS:EQ|Weapon,Melee,Unarmed,Special,Monk|WEAPON|TOHIT|-MonkFlurryPiranhaStrikeModifier|TYPE=Temporary	TEMPBONUS:EQ|Weapon,Melee,Unarmed,Special,Monk|WEAPON|DAMAGE|PiranhaStrikeDamageBase*MonkFlurryPiranhaStrikeModifier|TYPE=Temporary
+
+Inverted Grip (One-Handed)		CATEGORY:FEAT		VISIBLE:NO																																TEMPBONUS:EQ|Weapon,Melee,OneHanded;Natural|WEAPON|DAMAGE|ACTYPE:Dodge|TYPE=Temporary

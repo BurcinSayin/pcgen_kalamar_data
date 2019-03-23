@@ -1,0 +1,283 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Kingdoms of Kalamar Campaign
+VERSION:6.07.07
+ROLLMETHOD:0|EXPRESSION:0
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Regis Yarimdis
+TABNAME:
+PLAYERNAME:Deniz
+HEIGHT:72
+WEIGHT:190
+AGE:25
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:14
+STAT:DEX|SCORE:14
+STAT:CON|SCORE:14
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:17
+ALIGN:LG
+RACE:Human
+
+# Character Class(es)
+CLASS:Paladin|LEVEL:9|SKILLPOOL:0
+CLASS:Warlord|LEVEL:6|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Paladin=1|HITPOINTS:10|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=2|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=3|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=4|HITPOINTS:6|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=5|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=6|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=1|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=2|HITPOINTS:7|PRESTAT:DEX=1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=7|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=8|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=3|HITPOINTS:7|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=4|HITPOINTS:8|PRESTAT:CHA=1|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=5|HITPOINTS:8|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Warlord=6|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Paladin=9|HITPOINTS:5|SKILLSGAINED:2|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:425000
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ All]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Bluff|OUTPUTORDER:4|
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:5|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:6|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:8|
+SKILL:Climb|OUTPUTORDER:9|
+SKILL:Craft (Untrained)|OUTPUTORDER:10|
+SKILL:Diplomacy|OUTPUTORDER:11|CLASSBOUGHT:[CLASS:Paladin|RANKS:9.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlord|RANKS:4.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:12|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:13|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:15|
+SKILL:Disguise|OUTPUTORDER:17|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:18|
+SKILL:Escape Artist|OUTPUTORDER:19|
+SKILL:Fly|OUTPUTORDER:20|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:21|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:23|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:24|
+SKILL:Heal|OUTPUTORDER:25|
+SKILL:Intimidate|OUTPUTORDER:26|
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:27|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:28|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:29|
+SKILL:Knowledge (Nobility)|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlord|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Religion)|OUTPUTORDER:31|CLASSBOUGHT:[CLASS:Paladin|RANKS:3.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:32|
+SKILL:Perception|OUTPUTORDER:34|
+SKILL:Perform (Untrained)|OUTPUTORDER:35|
+SKILL:Profession (Clerk)|OUTPUTORDER:36|CLASSBOUGHT:[CLASS:Warlord|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Soldier)|OUTPUTORDER:37|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlord|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Profession (Untrained)|OUTPUTORDER:38|
+SKILL:Ride|OUTPUTORDER:39|CLASSBOUGHT:[CLASS:Paladin|RANKS:2.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlord|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Samurai Mount|OUTPUTORDER:40|
+SKILL:Sense Motive|OUTPUTORDER:41|CLASSBOUGHT:[CLASS:Paladin|RANKS:1.0|COST:1|CLASSSKILL:Y]CLASSBOUGHT:[CLASS:Warlord|RANKS:1.0|COST:1|CLASSSKILL:Y]
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:42|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:43|
+SKILL:Stealth|OUTPUTORDER:46|
+SKILL:Survival|OUTPUTORDER:47|
+SKILL:Swim|OUTPUTORDER:48|
+SKILL:Untrained Charisma|OUTPUTORDER:49|
+SKILL:Untrained Dexterity|OUTPUTORDER:50|
+SKILL:Untrained Intelligence|OUTPUTORDER:51|
+SKILL:Untrained Strength|OUTPUTORDER:52|
+SKILL:Untrained Wisdom|OUTPUTORDER:53|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:16|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:22|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:33|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:44|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:45|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:54|
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Strength|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:Divine Bond|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Divine Bond ~ Celestial Spirit|TYPE:PaladinClassFeatures.SpecialQuality.SpellLike.DivineBond.Divine Bond|DESC:Your divine bond allows you to enhance your weapon as a standard action by calling upon the aid of a celestial spirit for %1 minutes. When called, the spirit causes the weapon to shed light as a torch. This spirit grants the weapon a +%2 enhancement bonus. This bonus can be added to the weapon, stacking with existing weapon bonuses to a maximum of +5, or it can be used to add any of the following weapon properties&colon; defending, flaming, keen, merciful (+1), axiomatic, disruption, flaming burst, holy (+2), speed (+3), and brilliant energy (+4). Adding these properties consumes an amount of bonus equal to the property's cost. These bonuses are added to any properties the weapon already has, but duplicate abilities do not stack. If the weapon is not magical, at least a +1 enhancement bonus must be added before any other properties can be added. The bonus and properties granted by the spirit are determined when the spirit is called and cannot be changed until the spirit is called again. The celestial spirit imparts no bonuses if the weapon is held by anyone other than you but resumes giving bonuses if returned to you. These bonuses apply to only one end of a double weapon. You can use this ability %3 times per day. If a weapon bonded with a celestial spirit is destroyed, you lose the use of this ability for 30 days, or until you gain a level, whichever comes first. During this 30-day period, you take a -1 penalty on attack and weapon damage rolls.&pipe;CelestialSpiritDuration&pipe;CelestialSpiritBonus&pipe;DivineBondTimes
+USERPOOL:Divine Bond|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Antagonize|TYPE:General|DESC:Whether with biting remarks or hurtful words, you are adept at making creatures angry with you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Battle Cry|TYPE:Combat
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Patrol|TYPE:Combat.UrbanHunterAdvancedBonusFeat|DESC:You range across the battlefield, dealing with threats wherever they arise.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.FeyBloodragerBloodline.InfernalBloodragerBloodline.SerpentineBloodline.UrbanHunterAdvancedBonusFeat|DESC:You can make additional attacks of opportunity.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Dodge|TYPE:Combat.CelestialBloodline.ElementalBloodline.FeyBloodline.CelestialBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.UndeadBloodragerBloodline.AquaticBloodline.ShadowBloodline.StarsoulBloodline.StormbornBloodline.DruidShamanLion.KoboldBloodline.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:Your training and reflexes allow you to react swiftly to avoid an opponent's attack.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Critical|APPLIEDTO:Longsword|TYPE:Combat.OracleWeaponMastery|DESC:Attacks made with your chosen weapon are quite deadly.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Mobility|TYPE:Combat.CelestialBloodline.FeyBloodline.CelestialBloodragerBloodline.FeyBloodragerBloodline.UndeadBloodragerBloodline.AquaticBloodline.DruidShamanWolf|DESC:You can easily move through a dangerous melee.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Natural Ruler|TYPE:General|DESC:You have a special talent for ruling a nation, and take to the task with ease.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Power Attack|TYPE:Combat.AttackOption.AbyssalBloodline.DraconicBloodline.ElementalBloodline.AbyssalBloodragerBloodline.ArcaneBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.BorealBloodline.SaurianShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline|DESC:You can make exceptionally deadly melee attacks by sacrificing accuracy for strength.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Smite Evil Magic|TYPE:General|DESC:You can expend a use of your smite evil class ability to perform a sunder combat maneuver against an ongoing spell effect created by an evil creature.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Toughness|TYPE:General.DraconicBloodline.UndeadBloodline.AbyssalBloodragerBloodline.DraconicBloodragerBloodline.UndeadBloodragerBloodline.AquaticBloodline.BorealBloodline.ProteanBloodline.StarsoulBloodline.VerdantBloodline.DruidShamanBear|DESC:You have enhanced physical stamina.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Paladin|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Energy Resistance Paladin|APPLIEDTO:,,,,,,,,|TYPE:SpecialQuality.FavoredClassBonus.FavoredClassPaladin|DESC:Add +1 to the paladin's energy resistance to one kind of energy (maximum +10).
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:GM Awards|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+1 Bonus Feat|APPLIEDTO:,|TYPE:GM_Award.SpecialQuality|DESC:GM awarded PC with +1 feat.
+USERPOOL:GM Awards|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Human Racial Subtype|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Racial Subtype ~ None|TYPE:Universal Subtype|DESC:You have chosen no racial subtype.
+USERPOOL:Human Racial Subtype|POOLPOINTS:0.0
+ABILITY:Human Racial Trait|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Human ~ Heart of the Streets|TYPE:RacialTraits.SpecialQuality.HumanRacialTrait.HumanSkilled|DESC:Humans from bustling cities are skilled with crowds. They gain a +1 bonus on Reflex saves and a +1 dodge bonus to Armor Class when adjacent to at least two other allies. Crowds do not count as difficult terrain for them. This racial trait replaces the skilled racial trait.
+USERPOOL:Human Racial Trait|POOLPOINTS:0.0
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Cursed|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the ability also acts as Remove Curse with a caster level of %1.&pipe;MercyLVL
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Diseased|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the ability also acts as Remove Disease with a caster level of %1.&pipe;MercyLVL
+ABILITY:Mercy|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Mercy ~ Shaken|TYPE:PaladinClassFeatures.SpecialQuality.Supernatural.Mercy.LayOnHands|DESC:Whenever you use Lay on Hands to heal damage to one target, the target is no longer shaken.
+USERPOOL:Mercy|POOLPOINTS:0.0
+ABILITY:Paladin Energy Resistance|TYPE:NORMAL|CATEGORY:Internal|KEY:Paladin Resistance ~ Fire|APPLIEDTO:,,,,,,,,|TYPE:PaladinFavoredEnergyResistance
+USERPOOL:Paladin Energy Resistance|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Armor Expert|TYPE:Trait.BasicTrait.CombatTrait|DESC:You have worn armor as long as you can remember, either as part of your training to become a knight's squire or simply because you were seeking to emulate a hero. When you wear armor of any sort, reduce that suit's armor check penalty by 1, to a minimum check penalty of 0.
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Blessed Touch|TYPE:Trait.BasicTrait.FaithTrait|DESC:You may have been raised in a devout family, studied the divine in a formal church environment, or even learned how to combine traditional healing techniques with those of divine casters. In so doing, you have focused yourself into being the perfect vessel for your deity. Divine power flows through you like a mountain stream, making your healing touch more potent than that of others. You heal 1 additional point of damage when using lay on hands, channeling energy, or casting a cure spell.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Ankus|WEAPON:Atlatl|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battleaxe|WEAPON:Bayonet|WEAPON:Bec de Corbin]
+WEAPONPROF:[WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club]
+WEAPONPROF:[WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Dagger|WEAPON:Dagger (Chain)|WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker]
+WEAPONPROF:[WEAPON:Estoc|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Gaff|WEAPON:Gandasa|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive]
+WEAPONPROF:[WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword|WEAPON:Guisarme|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe]
+WEAPONPROF:[WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga|WEAPON:Hurlbat|WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Khakkhara]
+WEAPONPROF:[WEAPON:Klar|WEAPON:Kukri|WEAPON:Kumade|WEAPON:Kunai|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear|WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo]
+WEAPONPROF:[WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Machete|WEAPON:Manople|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata|WEAPON:Nodachi]
+WEAPONPROF:[WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Planson|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhomphaia]
+WEAPONPROF:[WEAPON:Rock|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou|WEAPON:Shieldbash|WEAPON:Shortbow]
+WEAPONPROF:[WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spear-Sling|WEAPON:Spells (Ray)|WEAPON:Spells (Touch)|WEAPON:Spiked Armor]
+WEAPONPROF:[WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Stonebow|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)|WEAPON:Sword Cane]
+WEAPONPROF:[WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Throwing Arrow Cord|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Flute|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Weighted Spear|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:98.50
+EQUIPNAME:Cloak Of The Crusader|OUTPUTORDER:9|COST:2700|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Dungeoneer's Kit (Common)|OUTPUTORDER:11|COST:15|WT:25.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Full Plate +1|OUTPUTORDER:5|COST:2650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +1$EQMOD=STEEL.PLUS1A]
+EQUIPNAME:Full Plate +2|OUTPUTORDER:7|COST:5650.0|WT:50.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Full Plate|DATA:NAME=Full Plate +2$EQMOD=STEEL.PLUS2A]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:NAME=Gauntlet$KEY=Gauntlet (Part of Armor Suit)$EQMOD=STEEL]
+EQUIPNAME:Gauntlet|OUTPUTORDER:0|COST:0.0|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Gauntlet (Part of Armor Suit)|DATA:KEY=Gauntlet (Part of Armor Suit)$EQMOD=Material ~ Steel]
+EQUIPNAME:Granted Power|OUTPUTORDER:14|COST:0.5|WT:0.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Badge|DATA:NAME=Granted Power$SPROP=Character is aware of any action or item that could adversely affect his alignment and his standing with his deity, including magical effects. He acquires this information prior to performing such an action or becoming associated with such an item if he takes a moment to contemplate the act.]
+EQUIPNAME:Headband of Alluring Charisma +4|OUTPUTORDER:1|COST:16000|WT:1.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Lion Cloak|OUTPUTORDER:8|COST:12000.0|WT:1.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Lion Cloak|DATA:NAME=Lion Cloak$EQMOD=CLOTH]
+EQUIPNAME:Longsword +1|OUTPUTORDER:12|COST:2315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +1$EQMOD=STEEL.PLUS1W]
+EQUIPNAME:Longsword +5 (Holy/Dancing)|OUTPUTORDER:3|COST:242315.0|WT:4.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Longsword|DATA:NAME=Longsword +5 (Holy/Dancing)$EQMOD=STEEL.PLUS5W.DANCE.HOLY]
+EQUIPNAME:Ring of Protection +1|OUTPUTORDER:5|COST:2000|WT:0.0|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield Sconce|OUTPUTORDER:10|COST:1|WT:0.5|QUANTITY:1.0|NOTE:
+EQUIPNAME:Shield, Heavy Steel|OUTPUTORDER:13|COST:20.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield, Heavy Steel$KEY=Shield (Heavy/Steel)$EQMOD=STEEL]
+EQUIPNAME:Shield, Heavy Steel +2 (Reflecting)|OUTPUTORDER:4|COST:49170.0|WT:15.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Shield (Heavy/Steel)|DATA:NAME=Shield, Heavy Steel +2 (Reflecting)$KEY=Shield +2 (Heavy/Steel/Reflecting)$EQMOD=STEEL.PLUS2S.REFLC]
+EQUIPNAME:Sun Blade (Short)|OUTPUTORDER:15|COST:50335.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Sun Blade (Short)|DATA:NAME=Sun Blade (Short)$EQMOD=Special Ability ~ Enhancement Cost&pipe;42000.Special Ability ~ +2 ~ Weapon.Material ~ Steel]
+EQUIPNAME:Uniform (Soldier's)|OUTPUTORDER:6|COST:0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Uniform (Soldier's)|DATA:NAME=Uniform (Soldier's)$KEY=Uniform (Soldier_s)$COSTMOD=-1]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.01|VALUE:Cloak Of The Crusader|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Equipped|ID:0.1.05|VALUE:Shield Sconce|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Unarmed|ID:0.1.06|VALUE:Gauntlet|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.07|VALUE:Dungeoneer's Kit (Common)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Torso|ID:0.1.08|VALUE:Uniform (Soldier's)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.09|VALUE:Longsword +5 (Holy/Dancing)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.10|VALUE:Longsword +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.11|VALUE:Shield, Heavy Steel +2 (Reflecting)|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.12|VALUE:Shield, Heavy Steel|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Headband|ID:0.1.13|VALUE:Headband of Alluring Charisma +4|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.14|VALUE:Full Plate +2|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Shoulders|ID:0.1.15|VALUE:Lion Cloak|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Ring|ID:0.1.16|VALUE:Ring of Protection +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.17|VALUE:Granted Power|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Carried|ID:0.1.18|VALUE:Sun Blade (Short)|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+TEMPBONUS:FEAT=Power Attack (Two-Handed)|TBTARGET:Longsword +5 (Holy/Dancing)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;(POWERATTACKDAMAGEBASE*1.5)*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY|TBBONUS:WEAPON&pipe;TOHIT&pipe;-POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+TEMPBONUS:FEAT=Power Attack (One-Handed)|TBTARGET:Longsword +5 (Holy/Dancing)|TBBONUS:WEAPON&pipe;DAMAGE&pipe;POWERATTACKDAMAGEBASE*POWERATTACKMODIFIER&pipe;TYPE=TEMPORARY
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+DEITY:None|DEITYDOMAINS:[DOMAIN:Agathion Subdomain|DOMAIN:Air|DOMAIN:Ancestors Subdomain|DOMAIN:Animal|DOMAIN:Aquatic|DOMAIN:Arcane Subdomain|DOMAIN:Archon Subdomain (Good)|DOMAIN:Archon Subdomain (Law)|DOMAIN:Arctic|DOMAIN:Arson Subdomain|DOMAIN:Artifice|DOMAIN:Ash Subdomain|DOMAIN:Azata Subdomain (Chaos)|DOMAIN:Azata Subdomain (Good)|DOMAIN:Blood Subdomain|DOMAIN:Catastrophe Subdomain|DOMAIN:Cave|DOMAIN:Caves Subdomain|DOMAIN:Chaos|DOMAIN:Charm|DOMAIN:Cloud Subdomain|DOMAIN:Community|DOMAIN:Competition Subdomain|DOMAIN:Construct Subdomain|DOMAIN:Cooperation Subdomain|DOMAIN:Curse Subdomain|DOMAIN:Daemon Subdomain|DOMAIN:Dark Tapestry Subdomain|DOMAIN:Darkness|DOMAIN:Day Subdomain|DOMAIN:Death|DOMAIN:Death (Pharasma)|DOMAIN:Decay Subdomain|DOMAIN:Deception Subdomain|DOMAIN:Defense Subdomain|DOMAIN:Demon Subdomain (Chaos)|DOMAIN:Demon Subdomain (Evil)|DOMAIN:Desert|DOMAIN:Destruction|DOMAIN:Devil Subdomain (Evil)|DOMAIN:Devil Subdomain (Law)|DOMAIN:Divine Subdomain|DOMAIN:Dragon Subdomain|DOMAIN:Duels Subdomain|DOMAIN:Eagle|DOMAIN:Earth|DOMAIN:Education Subdomain (Community)|DOMAIN:Education Subdomain (Knowledge)|DOMAIN:Entropy Subdomain|DOMAIN:Espionage Subdomain (Knowledge)|DOMAIN:Espionage Subdomain (Trickery)|DOMAIN:Evil|DOMAIN:Exploration Subdomain|DOMAIN:Family Subdomain|DOMAIN:Fate Subdomain|DOMAIN:Fear Subdomain|DOMAIN:Feather Subdomain|DOMAIN:Ferocity Subdomain|DOMAIN:Fire|DOMAIN:Flotsam Subdomain|DOMAIN:Fortifications Subdomain|DOMAIN:Freedom Subdomain|DOMAIN:Friendship Subdomain|DOMAIN:Frog|DOMAIN:Fur Subdomain|DOMAIN:Glory|DOMAIN:Good|DOMAIN:Growth Subdomain|DOMAIN:Healing|DOMAIN:Heroism Subdomain|DOMAIN:Home Subdomain|DOMAIN:Honor Subdomain|DOMAIN:Ice Subdomain|DOMAIN:Imagination Subdomain|DOMAIN:Industry Subdomain|DOMAIN:Inevitable Subdomain|DOMAIN:Insanity Subdomain|DOMAIN:Isolation Subdomain|DOMAIN:Judgment Subdomain|DOMAIN:Jungle|DOMAIN:Knowledge|DOMAIN:Language Subdomain|DOMAIN:Law|DOMAIN:Leadership Subdomain|DOMAIN:Legislation Subdomain (Law)|DOMAIN:Legislation Subdomain (Rune)|DOMAIN:Liberation|DOMAIN:Light Subdomain|DOMAIN:Loss Subdomain|DOMAIN:Love Subdomain|DOMAIN:Loyalty Subdomain|DOMAIN:Luck|DOMAIN:Lust Subdomain|DOMAIN:Madness|DOMAIN:Magic|DOMAIN:Martyr Subdomain|DOMAIN:Memory Subdomain|DOMAIN:Metal Subdomain|DOMAIN:Monkey|DOMAIN:Moon Subdomain|DOMAIN:Mountain|DOMAIN:Murder Subdomain|DOMAIN:Night Subdomain|DOMAIN:Nightmare Subdomain|DOMAIN:Nobility|DOMAIN:Oceans Subdomain|DOMAIN:Plague Subdomain (Death)|DOMAIN:Plague Subdomain (Evil)|DOMAIN:Plains|DOMAIN:Plant|DOMAIN:Protean Subdomain|DOMAIN:Protection|DOMAIN:Purity Subdomain|DOMAIN:Rage Subdomain|DOMAIN:Redemption Subdomain|DOMAIN:Repose|DOMAIN:Resolve Subdomain|DOMAIN:Restoration Subdomain|DOMAIN:Resurrection Subdomain|DOMAIN:Revelation Subdomain|DOMAIN:Revelry Subdomain|DOMAIN:Revolution Subdomain|DOMAIN:Riot Subdomain|DOMAIN:Rivers Subdomain|DOMAIN:Rune|DOMAIN:Saurian Subdomain|DOMAIN:Scalykind|DOMAIN:Seasons Subdomain|DOMAIN:Serpent|DOMAIN:Slavery Subdomain|DOMAIN:Smoke Subdomain|DOMAIN:Souls (Pharasma) Subdomain|DOMAIN:Souls Subdomain|DOMAIN:Stars Subdomain|DOMAIN:Storms Subdomain|DOMAIN:Strength|DOMAIN:Sun|DOMAIN:Swamp|DOMAIN:Tactics Subdomain|DOMAIN:Thievery Subdomain|DOMAIN:Thought Subdomain|DOMAIN:Toil Subdomain|DOMAIN:Torture Subdomain|DOMAIN:Trade Subdomain|DOMAIN:Travel|DOMAIN:Trickery|DOMAIN:Tyranny Subdomain|DOMAIN:Undead Subdomain|DOMAIN:Venom Subdomain|DOMAIN:Void|DOMAIN:War|DOMAIN:Wards Subdomain|DOMAIN:Water|DOMAIN:Weather|DOMAIN:Whimsy Subdomain|DOMAIN:Wind Subdomain|DOMAIN:Wolf]|ALIGNALLOW:|DESC:None|DEITYFAVWEAP:[]|DEITYALIGN:
+
+# Character Spells Information
+SPELLBOOK:Class|TYPE:4
+SPELLBOOK:Cloak of the Crusader|TYPE:4
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:0:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+

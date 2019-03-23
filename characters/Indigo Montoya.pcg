@@ -1,0 +1,237 @@
+PCGVERSION:2.0
+
+# System Information
+CAMPAIGN:Pathfinder Society
+VERSION:6.06.00
+ROLLMETHOD:1|EXPRESSION:10
+PURCHASEPOINTS:N
+CHARACTERTYPE:PC
+PREVIEWSHEET:Standard.htm.ftl
+POOLPOINTS:0
+POOLPOINTSAVAIL:20
+GAMEMODE:Pathfinder_RPG
+TABLABEL:0
+AUTOSPELLS:Y
+USEHIGHERKNOWN:N
+USEHIGHERPREPPED:N
+LOADCOMPANIONS:N
+USETEMPMODS:Y
+AUTOSORTGEAR:Y
+SKILLSOUTPUTORDER:0
+SKILLFILTER:2
+IGNORECOST:N
+ALLOWDEBT:N
+AUTORESIZEGEAR:Y
+
+# Character Bio
+CHARACTERNAME:Diego N'Marii
+TABNAME:
+PLAYERNAME:Yakup
+HEIGHT:67
+WEIGHT:165
+AGE:26
+GENDER:Male
+HANDED:Right
+SKINCOLOR:
+EYECOLOR:
+HAIRCOLOR:
+HAIRSTYLE:
+LOCATION:
+CITY:
+BIRTHDAY:
+BIRTHPLACE:
+PERSONALITYTRAIT1:
+PERSONALITYTRAIT2:
+SPEECHPATTERN:
+PHOBIAS:
+INTERESTS:
+CATCHPHRASE:
+PORTRAIT:
+
+# Character Attributes
+STAT:STR|SCORE:10
+STAT:DEX|SCORE:16
+STAT:CON|SCORE:13
+STAT:INT|SCORE:10
+STAT:WIS|SCORE:10
+STAT:CHA|SCORE:16
+RACE:Human
+
+# Character Class(es)
+CLASS:Swashbuckler|LEVEL:7|SKILLPOOL:0|SPELLBASE:None|CANCASTPERDAY:
+CLASSABILITIESLEVEL:Swashbuckler=1|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=2|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=3|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=4|HITPOINTS:10|PRESTAT:CHA=1|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=5|HITPOINTS:8|PRESTAT:DEX=-2|PRESTAT:STR=2|PRESTAT:INT=2|PRESTAT:CON=3|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=6|HITPOINTS:9|SKILLSGAINED:5|SKILLSREMAINING:0
+CLASSABILITIESLEVEL:Swashbuckler=7|HITPOINTS:10|SKILLSGAINED:5|SKILLSREMAINING:0
+
+# Character Experience
+EXPERIENCE:23515
+EXPERIENCETABLE:Fast
+
+# Character Templates
+TEMPLATESAPPLIED:[NAME:Creature with Class Levels]
+TEMPLATESAPPLIED:[NAME:Race Bonus Language ~ Modern Human Language]
+TEMPLATESAPPLIED:[NAME:FACE_5]
+TEMPLATESAPPLIED:[NAME:REACH_5]
+TEMPLATESAPPLIED:[NAME:Human Ethnicity]
+
+# Character Region
+REGION:None
+
+# Character Skills
+SKILL:Acrobatics|OUTPUTORDER:1|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Acrobatics (Perform (Dance))|OUTPUTORDER:2|
+SKILL:Appraise|OUTPUTORDER:3|
+SKILL:Artistry|OUTPUTORDER:4|
+SKILL:Bluff|OUTPUTORDER:6|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:5.0|COST:1|CLASSSKILL:Y]
+SKILL:Bluff (Perform (Act))|OUTPUTORDER:7|
+SKILL:Bluff (Perform (Comedy))|OUTPUTORDER:8|
+SKILL:Bluff (Perform (Sing))|OUTPUTORDER:9|
+SKILL:Bluff (Perform (String Instruments))|OUTPUTORDER:10|
+SKILL:Climb|OUTPUTORDER:11|
+SKILL:Consolidated Skill ~ Athletics|OUTPUTORDER:5|
+SKILL:Consolidated Skill ~ Influence|OUTPUTORDER:29|
+SKILL:Consolidated Skill ~ Performance|OUTPUTORDER:40|
+SKILL:Craft (Untrained)|OUTPUTORDER:12|
+SKILL:Diplomacy|OUTPUTORDER:13|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Diplomacy (Perform (Keyboard Instruments))|OUTPUTORDER:14|
+SKILL:Diplomacy (Perform (Oratory))|OUTPUTORDER:15|
+SKILL:Diplomacy (Perform (String Instruments))|OUTPUTORDER:16|
+SKILL:Diplomacy (Perform (Wind Instruments))|OUTPUTORDER:17|
+SKILL:Disguise|OUTPUTORDER:19|
+SKILL:Disguise (Perform (Act))|OUTPUTORDER:20|
+SKILL:Escape Artist|OUTPUTORDER:21|
+SKILL:Escape Artist (Escape manacles or ropes)|OUTPUTORDER:22|
+SKILL:Fly|OUTPUTORDER:23|
+SKILL:Fly (Perform (Dance))|OUTPUTORDER:24|
+SKILL:Handle Animal (Perform (Percussion Instruments))|OUTPUTORDER:26|
+SKILL:Handle Animal (Perform (Wind Instruments))|OUTPUTORDER:27|
+SKILL:Heal|OUTPUTORDER:28|
+SKILL:Intimidate|OUTPUTORDER:30|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:7.0|COST:1|CLASSSKILL:Y]
+SKILL:Intimidate (Perform (Comedy))|OUTPUTORDER:31|
+SKILL:Intimidate (Perform (Keyboard Instruments))|OUTPUTORDER:32|
+SKILL:Intimidate (Perform (Percussion Instruments))|OUTPUTORDER:33|
+SKILL:Knowledge (Local)|OUTPUTORDER:34|
+SKILL:Knowledge (Nobility)|OUTPUTORDER:35|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:2.0|COST:1|CLASSSKILL:Y]
+SKILL:Knowledge (Untrained)|OUTPUTORDER:36|
+SKILL:Perception|OUTPUTORDER:38|
+SKILL:Perform (Untrained)|OUTPUTORDER:39|
+SKILL:Profession (Untrained)|OUTPUTORDER:41|
+SKILL:Ride|OUTPUTORDER:42|
+SKILL:Samurai Mount|OUTPUTORDER:43|
+SKILL:Sense Motive|OUTPUTORDER:44|
+SKILL:Sense Motive (Perform (Oratory))|OUTPUTORDER:45|
+SKILL:Sense Motive (Perform (Sing))|OUTPUTORDER:46|
+SKILL:Stealth|OUTPUTORDER:49|
+SKILL:Survival|OUTPUTORDER:50|
+SKILL:Survival (Follow tracks)|OUTPUTORDER:51|
+SKILL:Survival (Get along in the wild)|OUTPUTORDER:52|
+SKILL:Swim|OUTPUTORDER:53|
+SKILL:Untrained Charisma|OUTPUTORDER:54|
+SKILL:Untrained Dexterity|OUTPUTORDER:55|
+SKILL:Untrained Intelligence|OUTPUTORDER:56|
+SKILL:Untrained Strength|OUTPUTORDER:57|
+SKILL:Untrained Wisdom|OUTPUTORDER:58|
+SKILL:Untrained ~ Disable Device|OUTPUTORDER:18|
+SKILL:Untrained ~ Handle Animal|OUTPUTORDER:25|
+SKILL:Untrained ~ Linguistics|OUTPUTORDER:37|
+SKILL:Untrained ~ Sleight of Hand|OUTPUTORDER:47|
+SKILL:Untrained ~ Spellcraft|OUTPUTORDER:48|
+SKILL:Untrained ~ Use Magic Device|OUTPUTORDER:59|
+SKILL:Use Magic Device|OUTPUTORDER:60|CLASSBOUGHT:[CLASS:Swashbuckler|RANKS:7.0|COST:1|CLASSSKILL:Y]
+
+# Character Languages
+LANGUAGE:Common
+
+# Character Feats
+FEATPOOL:0.0
+
+# Character Abilities
+ABILITY:Ability Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:+2 Dexterity|TYPE:AbilityBonus
+USERPOOL:Ability Bonus|POOLPOINTS:0.0
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Antagonize|TYPE:General|DESC:Whether with biting remarks or hurtful words, you are adept at making creatures angry with you.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Combat Reflexes|TYPE:Combat.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.FeyBloodragerBloodline.InfernalBloodragerBloodline.SerpentineBloodline.OniBloodline|DESC:You can make additional attacks of opportunity.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Improved Initiative|TYPE:Combat.AberrantBloodline.ArcaneBloodline.DraconicBloodline.ElementalBloodline.FeyBloodline.AberrantBloodragerBloodline.ArcaneBloodragerBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.DraconicBloodragerBloodline.ElementalBloodragerBloodline.FeyBloodragerBloodline.ImperiousBloodline.KoboldBloodline.SharkShamanBonus.DjinniBloodline.EfreetiBloodline.MaridBloodline.ShaitanBloodline.OniBloodline|DESC:Your quick reflexes allow you to react quickly to danger.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Leadership|TYPE:General.DestinedBloodline.PFSNotLegal.DestinedBloodragerBloodline|DESC:Neither the craft feats nor the item creation section of the magic items chapter in the Core Rulebook are legal for play.
+ABILITY:FEAT|TYPE:NORMAL|CATEGORY:FEAT|KEY:Slashing Grace|APPLIEDTO:Rapier|TYPE:Combat|DESC:Choose one kind of light or one-handed slashing weapon (such as the longsword). When wielding your chosen weapon one-handed, you can treat it as a one-handed piercing melee weapon for all feats and class abilities that require such a weapon (such as a swashbuckler's or a duelist's precise strike) and you can add your Dexterity modifier instead of your Strength modifier to that weapon's damage. The weapon must be one appropriate for your size.You do not gain this benefit while fighting with two weapons or using flurry of blows, or any time another hand is otherwise occupied.
+USERPOOL:FEAT|POOLPOINTS:0.0
+ABILITY:Favored Class|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Swashbuckler|TYPE:FavoredClass
+USERPOOL:Favored Class|POOLPOINTS:0.0
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Hit Point|APPLIEDTO:|TYPE:FavoredClassBonus
+ABILITY:Favored Class Bonus|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Favored Class Bonus ~ Skill Rank|APPLIEDTO:Knowledge (Local),Knowledge (Local),Knowledge (Local),Knowledge (Local),Knowledge (Local),Bluff|TYPE:FavoredClassBonus
+USERPOOL:Favored Class Bonus|POOLPOINTS:0.0
+ABILITY:Human Ethnicity|TYPE:NORMAL|CATEGORY:Background|KEY:Human Ethnicity ~ None|TYPE:HumanEthnicity
+USERPOOL:Human Ethnicity|POOLPOINTS:0.0
+ABILITY:Region of Origin|TYPE:NORMAL|CATEGORY:Background|KEY:Region ~ None|TYPE:Region
+USERPOOL:Region of Origin|POOLPOINTS:0.0
+ABILITY:Society Faction|TYPE:NORMAL|CATEGORY:Background|KEY:Society Faction ~ None|TYPE:Society Faction
+USERPOOL:Society Faction|POOLPOINTS:0.0
+ABILITY:Society ID|TYPE:NORMAL|CATEGORY:Internal|KEY:PFS Character ID|APPLIEDTO:Yakup|TYPE:Society ID
+USERPOOL:Society ID|POOLPOINTS:0.0
+ABILITY:Swashbuckler Bonus Feat|TYPE:NORMAL|CATEGORY:FEAT|KEY:Weapon Focus|APPLIEDTO:Rapier|TYPE:Combat.WeaponFocus.DestinedBloodline.CelestialBloodragerBloodline.DestinedBloodragerBloodline.ElementalBloodragerBloodline.OracleWeaponMastery|DESC:You are especially good at using your chosen weapon.
+USERPOOL:Swashbuckler Bonus Feat|POOLPOINTS:0.0
+ABILITY:Swashbuckler Bonus Feat Selection|TYPE:NORMAL|CATEGORY:Internal|KEY:Add Swashbuckler Feat|APPLIEDTO:|TYPE:Swashbuckler Bonus Feat Selection
+USERPOOL:Swashbuckler Bonus Feat Selection|POOLPOINTS:0.0
+ABILITY:Traits|TYPE:NORMAL|CATEGORY:Special Ability|KEY:Trait ~ Dangerously Curious|TYPE:Trait.BasicTrait.MagicTrait|DESC:You have always been intrigued by magic, possibly because you were the child of a magician or priest. You often snuck into your parent's laboratory or shrine to tinker with spell components and magic devices, and often caused quite a bit of damage and headaches for your parent as a result. You gain a +1 trait bonus on Use Magic Device checks, and Use Magic Device is always a class skill for you.
+USERPOOL:Traits|POOLPOINTS:0.0
+
+# Character Weapon proficiencies
+WEAPONPROF:[WEAPON:Aldori Dueling Sword|WEAPON:Amentum|WEAPON:Atlatl|WEAPON:Axe (Boarding)|WEAPON:Axe (Throwing)|WEAPON:Bardiche|WEAPON:Battle Aspergillum|WEAPON:Battle Poi|WEAPON:Battleaxe|WEAPON:Bayonet]
+WEAPONPROF:[WEAPON:Bec de Corbin|WEAPON:Bill|WEAPON:Blade Boot|WEAPON:Blowgun|WEAPON:Boar Spear|WEAPON:Boarding Pike|WEAPON:Brass Knife|WEAPON:Brass Knuckles|WEAPON:Broadsword (Nine Ring)|WEAPON:Butterfly Sword]
+WEAPONPROF:[WEAPON:Cat-O'-Nine-Tails|WEAPON:Cestus|WEAPON:Chakram|WEAPON:Club|WEAPON:Combat Scabbard|WEAPON:Crossbow (Heavy)|WEAPON:Crossbow (Light)|WEAPON:Cutlass|WEAPON:Dagger|WEAPON:Dagger (Chain)]
+WEAPONPROF:[WEAPON:Dagger (Punching)|WEAPON:Dart|WEAPON:Dogslicer|WEAPON:Double Chicken Saber|WEAPON:Earth Breaker|WEAPON:Falchion|WEAPON:Flail|WEAPON:Flail (Heavy)|WEAPON:Flambard|WEAPON:Gaff]
+WEAPONPROF:[WEAPON:Garrote|WEAPON:Gauntlet|WEAPON:Gauntlet (Spiked)|WEAPON:Gladius|WEAPON:Glaive|WEAPON:Glaive-Guisarme|WEAPON:Grapple|WEAPON:Greataxe|WEAPON:Greatclub|WEAPON:Greatsword]
+WEAPONPROF:[WEAPON:Guisarme|WEAPON:Hair|WEAPON:Halberd|WEAPON:Hammer (Light)|WEAPON:Hanbo|WEAPON:Handaxe|WEAPON:Hook Hand|WEAPON:Hooked Lance|WEAPON:Horsechopper|WEAPON:Hunga Munga]
+WEAPONPROF:[WEAPON:Iron Brush|WEAPON:Javelin|WEAPON:Jutte|WEAPON:Katana|WEAPON:Kerambit|WEAPON:Klar|WEAPON:Kukri|WEAPON:Lance|WEAPON:Longbow|WEAPON:Longspear]
+WEAPONPROF:[WEAPON:Longsword|WEAPON:Lucerne Hammer|WEAPON:Lungchuan Tamo|WEAPON:Mace (Heavy)|WEAPON:Mace (Light)|WEAPON:Mattock|WEAPON:Mere Club|WEAPON:Monk's Spade|WEAPON:Morningstar|WEAPON:Naginata]
+WEAPONPROF:[WEAPON:Nodachi|WEAPON:Ogre Hook|WEAPON:Pick (Heavy)|WEAPON:Pick (Light)|WEAPON:Pilum|WEAPON:Poisoned Sand Tube|WEAPON:Quarterstaff|WEAPON:Ranseur|WEAPON:Rapier|WEAPON:Rhoka]
+WEAPONPROF:[WEAPON:Rhomphaia|WEAPON:Rock|WEAPON:Rope Gauntlet|WEAPON:Sansetsukon|WEAPON:Sap|WEAPON:Scimitar|WEAPON:Scizore|WEAPON:Scythe|WEAPON:Sea-Knife|WEAPON:Shang Gou]
+WEAPONPROF:[WEAPON:Shieldbash|WEAPON:Shortbow|WEAPON:Shortspear|WEAPON:Sibat|WEAPON:Sickle|WEAPON:Sling|WEAPON:Sling Glove|WEAPON:Spear|WEAPON:Spear (Boar)|WEAPON:Spells (Ray)]
+WEAPONPROF:[WEAPON:Spells (Touch)|WEAPON:Spiked Armor|WEAPON:Splash Weapon|WEAPON:Stake|WEAPON:Starknife|WEAPON:Stingchuck|WEAPON:Switchblade Knife|WEAPON:Sword (Bastard)|WEAPON:Sword (Short)|WEAPON:Sword (Tri-Point Double-Edged)]
+WEAPONPROF:[WEAPON:Sword Cane|WEAPON:Syringe spear|WEAPON:Tepoztopilli|WEAPON:Terbutje|WEAPON:Terbutje (Great)|WEAPON:Tiger Fork|WEAPON:Tonfa|WEAPON:Trident|WEAPON:Tube Arrow Shooter|WEAPON:Unarmed Strike]
+WEAPONPROF:[WEAPON:Underwater Crossbow (Heavy)|WEAPON:Underwater Crossbow (Light)|WEAPON:War Razor|WEAPON:Waraxe (Dwarven)|WEAPON:Warhammer|WEAPON:Wushu Dart]
+
+# Character Equipment
+MONEY:0
+EQUIPNAME:Buckler|OUTPUTORDER:2|COST:5.0|WT:5.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Buckler|DATA:NAME=Buckler$EQMOD=STEEL]
+EQUIPNAME:Masterwork Chain Shirt|OUTPUTORDER:3|COST:250.0|WT:25.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Chain Shirt|DATA:NAME=Masterwork Chain Shirt$EQMOD=STEEL.MWORKA]
+EQUIPNAME:Rapier +1|OUTPUTORDER:1|COST:2320.0|WT:2.0|QUANTITY:1.0|NOTE:|CUSTOMIZATION:[BASEITEM:Rapier|DATA:NAME=Rapier +1$EQMOD=STEEL.PLUS1W]
+EQUIPSET:Default Set|ID:0.1|USETEMPMODS:Y
+EQUIPSET:Armor|ID:0.1.01|VALUE:Masterwork Chain Shirt|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Primary Hand|ID:0.1.02|VALUE:Rapier +1|QUANTITY:1.0|USETEMPMODS:Y
+EQUIPSET:Secondary Hand|ID:0.1.03|VALUE:Buckler|QUANTITY:1.0|USETEMPMODS:Y
+CALCEQUIPSET:0.1
+
+# Temporary Bonuses
+
+# EquipSet Temp Bonuses
+
+# Character Deity/Domain
+
+# Character Spells Information
+
+# Character Description/Bio/History
+CHARACTERBIO:
+CHARACTERDESC:
+CHARACTERCOMP:
+CHARACTERASSET:
+CHARACTERMAGIC:
+CHARACTERDMNOTES:
+
+# Kits
+
+# Character Master/Follower
+
+# Character Notes Tab
+
+# Age Set Selections
+AGESET:1:1:0:0:0:0:0:0:0:0
+
+# Campaign History
+
+# Suppressed Biography Fields
+SUPPRESSBIOFIELDS:
+
